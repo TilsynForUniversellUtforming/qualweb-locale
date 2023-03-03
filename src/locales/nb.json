@@ -41,12 +41,12 @@
       }
     },
     "QW-ACT-R5": {
-      "name": "Validity of HTML Lang attribute",
-      "description": "This rule checks the lang or xml:lang attribute has a valid language subtag.",
+      "name": "HTML lang-attributtet har gyldig innhold",
+      "description": "Denne regelen kontrollerer at lang- eller xml:lang-attributtet har en gyldig språkundertag.",
       "results": {
         "I1": "Ikke forekomst.",
-        "P1": "The `lang` attribute has a valid value.",
-        "F1": "The `lang` attribute does not have a valid value."
+        "P1": "`lang`-attributtet har en gyldig verdi.",
+        "F1": "`lang`-attributtet har ikke en gyldig verdi."
       }
     },
     "QW-ACT-R6": {
