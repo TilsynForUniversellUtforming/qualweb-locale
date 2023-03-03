@@ -50,12 +50,12 @@
       }
     },
     "QW-ACT-R6": {
-      "name": "Image button has accessible name",
-      "description": "This rule checks that each image button element has an accessible name.",
+      "name": "Knapper kodet som bilde har et tilgjengelig navn",
+      "description": "Denne testregelen sjekker at knapper kodet som bilde har et tilgjengelig navn.",
       "results": {
         "I1": "Ikke forekomst.",
-        "P1": "The test target has an accessible name.",
-        "F1": "The test target doesn't have an accessible name."
+        "P1": "Knapp kodet som bilde har et tilgjengelig navn.",
+        "F1": "Knapp kodet som bilde har ikke et tilgjengelig navn."
       }
     },
     "QW-ACT-R7": {
