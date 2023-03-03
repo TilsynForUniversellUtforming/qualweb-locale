@@ -59,12 +59,12 @@
       }
     },
     "QW-ACT-R7": {
-      "name": "Orientation of the page is not restricted using CSS transform property",
-      "description": "This rule checks that page content is not restricted to either landscape or portrait orientation using CSS transform property.",
+      "name": "Visningsretning på nettsiden er ikke begrenset ved bruk av CSS-transformeringsegenskap",
+      "description": "Denne regelen sjekker at sideinnhold ikke er begrenset til bare liggende eller stående visningsretning ved bruk av CSS-transformeringsegenskaper.",
       "results": {
         "I1": "Ikke forekomst.",
-        "P1": "A page where CSS transform property has rotateZ transform function conditionally applied on the orientation media feature which does not restrict the element to either portrait or landscape orientation.",
-        "F1": "A page where CSS transform property has rotate transform function conditionally applied on the orientation media feature which restricts the element to landscape orientation."
+        "P1": "En side der CSS-egenskaper ikke begrenser visningsretningen til verken stående eller liggende visningsretning.",
+        "F1": "En side der CSS-egenskaper begrenser visningsretningen til bare liggende visningsretning."
       }
     },
     "QW-ACT-R9": {
