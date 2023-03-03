@@ -56,7 +56,7 @@ If you want a translation on your own language, follow these steps:
     </tr>
     <tr>
       <td>Norwegian Bokmål</td>
-      <td>no</td>
+      <td>nb</td>
       <td>Full</td>
       <td>none</td>
       <td>none</td>
