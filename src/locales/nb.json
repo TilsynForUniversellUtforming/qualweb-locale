@@ -68,12 +68,12 @@
       }
     },
     "QW-ACT-R9": {
-      "name": "Links with identical accessible names have equivalent purpose",
-      "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources.",
+      "name": "Lenker med identiske tilgjengelig navn har samme formål",
+      "description": "Denne regelen sjekker at lenker med identiske tilgjengelig navn har samme eller tilsvarende lenkemål.",
       "results": {
         "I1": "Ikke forekomst.",
-        "P1": "The `links` with the same accessible name have equal content.",
-        "F1": "The `links` with the same accessible name have different content. Verify is the content is equivalent."
+        "P1": "`Lenker` med samme tilgjengelige navn har samme lenkemål.",
+        "F1": "`Lenker` med samme tilgjengelige navn har ulikt lenkemål. Verifisere at lenkemålet er tilsvarende."
       }
     },
     "QW-ACT-R10": {
