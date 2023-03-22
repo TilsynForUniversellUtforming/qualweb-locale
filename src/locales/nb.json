@@ -13,15 +13,15 @@
     },
     "QW-ACT-R2": {
       "name": "HTML har en lang-attributt",
-      "description": "Denne regelen kontrollerer at html-elementet har et ikke-tomt lang- eller xml:lang-attributt.",
+      "description": "Denne regelen kontrollerer at html-elementet ikke har et tomt lang- eller xml:lang-attributt.",
       "results": {
         "I1": "Ikke forekomst.",
         "P1": "`lang`-attributtet finnes og har en verdi.",
-        "F1": "`lang`-attributtet eksisterer ikke eller er tomt ('')."
+        "F1": "`lang`-attributtet finnes ikke eller er tomt ('')."
       }
     },
     "QW-ACT-R3": {
-      "name": "HTML lang og xml:lang samsvarer",
+      "name": "HTML lang og xml:lang er like",
       "description": "Regelen sjekker at det for html-elementer er brukt samme verdi for primærspråk i ikke-tomme lang- og xml:lang-attributter, der begge disse attributtene er brukt.",
       "results": {
         "I1": "Ikke forekomst.",
@@ -30,7 +30,7 @@
       }
     },
     "QW-ACT-R4": {
-      "name": "Meta-refresh er ikke brukt med forsinkelse",
+      "name": "Meta-refresh ingen forsinkelse",
       "description": "Denne regelen sjekker at meta-elementet ikke brukes til forsinket omdirigering eller oppdatering.",
       "results": {
         "I1": "Ikke forekomst.",
