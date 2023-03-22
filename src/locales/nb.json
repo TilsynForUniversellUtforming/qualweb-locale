@@ -77,12 +77,12 @@
       }
     },
     "QW-ACT-R10": {
-      "name": "`iframe` elements with identical accessible names have equivalent purpose",
-      "description": "This rule checks that `iframe` elements with identical accessible names embed the same resource or equivalent resources.",
+      "name": "`iframe`-elementer med identisk tilgjengelige navn har tilsvarende formål",
+      "description": "Denne regelen sjekker at `iframe`-elementer med identiske tilgjengelige navn har samme innhold.",
       "results": {
         "I1": "Ingen testobjekt.",
-        "P1": "The `iframes` with the same accessible name have equal content.",
-        "F1": "The `iframes` with the same accessible name have different content."
+        "P1": "`iframes` med samme tilgjengelige navn har likt innhold.",
+        "F1": "`iframes` med samme tilgjengelige navn har forskjellig innhold."
       }
     },
     "QW-ACT-R11": {
