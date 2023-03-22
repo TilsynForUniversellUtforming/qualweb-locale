@@ -34,10 +34,10 @@
       "description": "Denne regelen sjekker at meta-elementet ikke brukes til forsinket omdirigering eller oppdatering.",
       "results": {
         "I1": "Ikke forekomst.",
-        "P1": "Testmålet oppdateres/omdirigeres umiddelbart.",
-        "P2": "Testmålet oppdateres/omdirigeres etter mer enn 20 timer.",
-        "F1": "Testmålet oppdateres etter {seconds} sekunder.",
-        "F2": "Testmålet omdirigeres etter {seconds} sekunder."
+        "P1": "Testobjektet oppdateres/omdirigeres umiddelbart.",
+        "P2": "Testobjektet oppdateres/omdirigeres etter mer enn 20 timer.",
+        "F1": "Testobjektet oppdateres etter {seconds} sekunder.",
+        "F2": "Testobjektet omdirigeres etter {seconds} sekunder."
       }
     },
     "QW-ACT-R5": {
@@ -60,7 +60,7 @@
     },
     "QW-ACT-R7": {
       "name": "Visningsretning på nettsiden er ikke begrenset ved bruk av CSS-transformeringsegenskap",
-      "description": "Denne regelen sjekker at sideinnhold ikke er begrenset til bare liggende eller stående visningsretning ved bruk av CSS-transformeringsegenskaper.",
+      "description": "Denne regelen sjekker at innhold på siden, ikke er begrenset til bare liggende eller stående visningsretning ved bruk av CSS-transformeringsegenskaper.",
       "results": {
         "I1": "Ikke forekomst.",
         "P1": "En side der CSS-egenskaper ikke begrenser visningsretningen til verken stående eller liggende visningsretning.",
@@ -68,12 +68,12 @@
       }
     },
     "QW-ACT-R9": {
-      "name": "Lenker med identiske tilgjengelig navn har samme formål",
-      "description": "Denne regelen sjekker at lenker med identiske tilgjengelig navn har samme eller tilsvarende lenkemål.",
+      "name": "Lenker med identisk tilgjengelig navn har samme formål",
+      "description": "Denne regelen sjekker at lenker med identisk tilgjengelig navn har samme eller tilsvarende lenkemål.",
       "results": {
         "I1": "Ikke forekomst.",
         "P1": "`Lenker` med samme tilgjengelige navn har samme lenkemål.",
-        "F1": "`Lenker` med samme tilgjengelige navn har ulikt lenkemål. Verifisere at lenkemålet er tilsvarende."
+        "F1": "`Lenker` med samme tilgjengelige navn har ulikt lenkemål. Verifiser at lenkemålet er tilsvarende."
       }
     },
     "QW-ACT-R10": {
