@@ -95,12 +95,12 @@
       }
     },
     "QW-ACT-R12": {
-      "name": "Link has accessible name",
-      "description": "This rule checks that each link has an accessible name.",
+      "name": "Lenker har et tilgjenglig navn",
+      "description": "Denne regelen sjekker at alle lenker har et tilgjengelig navn.",
       "results": {
         "I1": "Ingen testobjekt.",
-        "P1": "The test target has an accessible name.",
-        "F1": "The test target doesn't have an accessible name, or it's empty ('')."
+        "P1": "Lenke med tilgjengelig navn.",
+        "F1": "Lenke mangler et tilgjengelig navn eller det er tomt ('')."
       }
     },
     "QW-ACT-R13": {
