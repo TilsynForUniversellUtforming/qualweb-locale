@@ -86,12 +86,12 @@
       }
     },
     "QW-ACT-R11": {
-      "name": "Button has accessible name",
-      "description": "This rule checks that each button element has an accessible name.",
+      "name": "Knapper har et tilgjengelig navn",
+      "description": "Denne regelen sjekker at alle knapper kodet som button har et tilgjengelig navn.",
       "results": {
         "I1": "Ingen testobjekt.",
-        "P1": "The test target has an accessible name.",
-        "F1": "The test target doesn't have an accessible name, or it's empty ('')."
+        "P1": "Knapp har et tilgjengelig navn.",
+        "F1": "Knapp mangler et tilgjengelig navn eller det er tomt ('')."
       }
     },
     "QW-ACT-R12": {
