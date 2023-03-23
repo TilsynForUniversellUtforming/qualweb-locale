@@ -129,9 +129,9 @@
       "description": "Denne regelen sjekker at automatisk avspilling av lyd ikke varer i mer enn 3 sekunder, eller at lyden har en kontrollmekanisme for å stoppe eller dempe den.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Automatisk avspilling av lyd varer ikke i mer enn 3 sekunder, eller lyden har en kontrollmekanisme for å stoppe eller dempe den.",
-        "W1": "Resultatet er ikke mulig å vurdere automatisk.",
-        "F1": "Automatisk avspilling av lyd varer i mer enn 3 sekunder og det finest ikke en kontrollmekanisme for å stoppe eller dempe den."
+        "P1": "Testobjektet fikk resultatet samsvar basert på resultatet fra testregelen ",
+        "W1": "Testobjektet kunne ikke verifiseres basert på resultatet fra testregelen ",
+        "F1": "Testobjektet fikk resultatet feila basert på resultatet fra testregelen "
       }
     },
     "QW-ACT-R16": {
@@ -199,13 +199,13 @@
       }
     },
     "QW-ACT-R23": {
-      "name": "video element visual content has accessible alternative",
-      "description": "This rule checks that video elements with audio have an alternative for the video content as audio or as text.",
+      "name": "Video med lyd er synstolket eller har et tekstalternativ.",
+      "description": "Denne regelen sjekker at alle video-elementer med lyd har et alternativ for det visuelle innholdet i form av lydspor eller tekst.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The rule passed because of the rule ",
-        "W1": "The rule can't tell because of the rule ",
-        "F1": "The rule failed because of the rule "
+        "P1": "Testobjektet fikk resultatet samsvar basert på resultatet fra testregelen ",
+        "W1": "Testobjektet kunne ikke verifiseres basert på resultatet fra testregelen ",
+        "F1": "Testobjektet fikk resultatet feila basert på resultatet fra testregelen "
       }
     },
     "QW-ACT-R24": {
