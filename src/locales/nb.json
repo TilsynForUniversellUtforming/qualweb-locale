@@ -164,7 +164,7 @@
     },
     "QW-ACT-R19": {
       "name": "iframe-element har tilgjengelig navn",
-      "description": "Denne regelen sjekker at alle iFrame-element har et tilgjengelig navn.",
+      "description": "Denne regelen sjekker at alle iframe-element har et tilgjengelig navn.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "iframe-elementet har et tilgjengelig navn.",
@@ -172,12 +172,12 @@
       }
     },
     "QW-ACT-R20": {
-      "name": "role attribute has valid value",
-      "description": "This rule checks that each role attribute has a valid value.",
+      "name": "role-attributter har en gyldig verdi",
+      "description": "Denne regelen sjekker at alle role-attributter har en gyldig verdi.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The test target has a valid `role` attribute.",
-        "F1": "The test target has an invalid `role` attribute."
+        "P1": "Element med gyldig `role`-attributt.",
+        "F1": "Element med ugyldig `role`-attributt."
       }
     },
     "QW-ACT-R21": {
