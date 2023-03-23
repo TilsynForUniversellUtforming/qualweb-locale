@@ -209,12 +209,12 @@
       }
     },
     "QW-ACT-R24": {
-      "name": "autocomplete attribute has valid value",
-      "description": "This rule checks that the HTML autocomplete attribute has a correct value.",
+      "name": "autocomplete-attributter har en gyldig verdi",
+      "description": "Denne regelen sjekker at alle HTML autocomplete-attributter har en gyldig verdi.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The test target has a valid `autocomplete` attribute.",
-        "F1": "The test target `autocomplete` attribute is not valid."
+        "P1": "Element har `autocomplete`-attributt med gyldig verdi.",
+        "F1": "Element har `autocomplete`-attributt med ugyldig verdi."
       }
     },
     "QW-ACT-R25": {
