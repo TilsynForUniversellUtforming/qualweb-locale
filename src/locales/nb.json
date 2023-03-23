@@ -104,14 +104,14 @@
       }
     },
     "QW-ACT-R13": {
-      "name": "Elementer med `aria-hidden` har ikke fokuserbart innhold",
-      "description": "Denne regelen sjekker at elementer som er kodet med aria-aria-hidden-attributtet ikke inneholder fokuserbare elementer.",
+      "name": "Elementer med `aria-hidden` inneholder ikke elementer som kan få fokus",
+      "description": "Denne regelen sjekker at elementer som er kodet med aria-aria-hidden-attributtet ikke inneholder elementer som kan få fokus.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Testobjektet inneholder ikke fokuserbare elementer.",
-        "P2": "Testobjektet er ikke fokuserbart.",
-        "F1": "Testobjektet inneholder fokuserbare elementer.",
-        "F2": "Testobjektet er fokuserbart."
+        "P1": "Testobjektet inneholder ikke elementer som kan få fokus.",
+        "P2": "Testobjektet kan ikke få fokus.",
+        "F1": "Testobjektet inneholder elementer som kan få fokus.",
+        "F2": "Testobjektet kan få fokus."
       }
     },
     "QW-ACT-R14": {
@@ -119,7 +119,7 @@
       "description": "Denne regelen sjekker at metaelementet ikke begrenser brukeragentens evne til å zoome.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "`meta` element med `name='viewport'` attributt definerer ikke verdiene  `maximum-scale` og `user-scalable`.",
+        "P1": "`meta` element med `name='viewport'` attributt definerer ikke verdiene `maximum-scale` og `user-scalable`.",
         "P2": "`meta` element med `name='viewport'` attributt begrenser ikke brukeragentens evne til å zoome",
         "F1": "`meta` element med `name='viewport'` attributt begrenser brukeragentens evne til å zoome ved bruk av user-scalable=no eller maximum-scale < 2."
       }
