@@ -190,12 +190,12 @@
       }
     },
     "QW-ACT-R22": {
-      "name": "Element within body has valid lang attribute",
-      "description": "This rule checks that the lang attribute of an element in the page body has a valid primary language subtag.",
+      "name": "lang-attributter har en gyldig språkkode",
+      "description": "Denne regelen kontrollerer at alle ikke-tomme lang-attributter for et element på nettsiden har en gyldig språkkode.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The test target has a valid `lang` attribute.",
-        "F1": "The test target has an invalid `lang` attribute."
+        "P1": "Element har `lang`-attributt med gyldig språkkode.",
+        "F1": "Element har `lang`-attributt med ugyldig språkkode."
       }
     },
     "QW-ACT-R23": {
