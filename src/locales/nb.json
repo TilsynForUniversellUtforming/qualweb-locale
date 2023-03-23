@@ -144,13 +144,13 @@
       }
     },
     "QW-ACT-R17": {
-      "name": "Image has accessible name",
-      "description": "This rule checks that each image that is not marked as decorative, has an accessible name.",
+      "name": "Bilder har et tilgjenglig navn",
+      "description": "Denne reglen sjekker at bilder som ikke er markert som dekorative, har et tilgjengelig navn.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The test target is decorative.",
-        "P2": "The test target has an accessible name.",
-        "F1": "The test target doesn't have an accessible name."
+        "P1": "Bilde er markert som dekorativt.",
+        "P2": "Bilde har et tilgjenglig navn.",
+        "F1": "Bilde som ikke er makert som dekorativt mangler et tilgjengelig navn eller det er tomt ('')."
       }
     },
     "QW-ACT-R18": {
