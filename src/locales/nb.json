@@ -116,7 +116,7 @@
     },
     "QW-ACT-R14": {
       "name": "Bruk av meta viewport er ikke til hindrer for zoom",
-      "description": "Denne regelen sjekker at metaelementet ikke begrenser brukeragentens evne til å zoome.",
+      "description": "Denne regelen sjekker at meta-elementet ikke begrenser brukeragentens evne til å zoome.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "`meta` element med `name='viewport'` attributt definerer ikke verdiene `maximum-scale` og `user-scalable`.",
@@ -136,7 +136,7 @@
     },
     "QW-ACT-R16": {
       "name": "Skjemaelement har et tilgjengelig navn",
-      "description": "Denne reglen sjekker at skjemaelement har et tilgjengelig navn.",
+      "description": "Denne regelen sjekker at skjemaelement har et tilgjengelig navn.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Skjemaelementet har et tilgjengelig navn.",
@@ -144,22 +144,22 @@
       }
     },
     "QW-ACT-R17": {
-      "name": "Bilder har et tilgjenglig navn",
-      "description": "Denne reglen sjekker at bilder som ikke er markert som dekorative, har et tilgjengelig navn.",
+      "name": "Bilder har et tilgjengelig navn",
+      "description": "Denne regelen sjekker at bilder som ikke er markert som dekorative, har et tilgjengelig navn.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Bilde er markert som dekorativt.",
-        "P2": "Bilde har et tilgjenglig navn.",
+        "P2": "Bilde har et tilgjengelig navn.",
         "F1": "Bilde som ikke er markert som dekorativt mangler et tilgjengelig navn eller det er tomt ('')."
       }
     },
     "QW-ACT-R18": {
-      "name": "`id` attribute value is unique",
-      "description": "This rule checks that all id attribute values on a single page are unique.",
+      "name": "`id` attributter har en unik verdi",
+      "description": "Denne regelen sjekker at alle id attributter innenfor en nettside er unike.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The test target has a unique `id` attribute.",
-        "F1": "Several elements have the same `id` attribute."
+        "P1": "Element med unik verdi på `id`-attributt.",
+        "F1": "Flere elementer har samme verdi på `id`-attributtet."
       }
     },
     "QW-ACT-R19": {
