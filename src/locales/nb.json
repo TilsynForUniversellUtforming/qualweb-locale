@@ -116,12 +116,12 @@
     },
     "QW-ACT-R14": {
       "name": "meta viewport hindrer ikke zoom",
-      "description": "Denne regelen sjekker at metaelementet beholder brukeragentens evne til å zoome.This rule checks that the meta element retains the user agent ability to zoom.",
+      "description": "Denne regelen sjekker at metaelementet ikke begrenser brukeragentens evne til å zoome.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The `meta` element with a `name='viewport'` attribute doesn't define the `maximum-scale` and `user-scalable` values.",
-        "P2": "The `meta` element with a `name='viewport'` attribute retains the user agent ability to zoom.",
-        "F1": "The `meta` element with a `name='viewport'` attribute abolishes the user agent ability to zoom with user-scalable=no or maximum-scale < 2."
+        "P1": "`meta` element med `name='viewport'` attributt definerer ikke verdiene  `maximum-scale` og `user-scalable`.",
+        "P2": "`meta` element med `name='viewport'` attributt begrenser ikke brukeragentens evne til å zoome",
+        "F1": "`meta` element med `name='viewport'` attributt begrenser brukeragentens evne til å zoome ved bruk av user-scalable=no eller maximum-scale < 2."
       }
     },
     "QW-ACT-R15": {
