@@ -218,12 +218,12 @@
       }
     },
     "QW-ACT-R25": {
-      "name": "ARIA state or property is permitted",
-      "description": "This rule checks that WAI-ARIA states or properties are allowed for the element they are specified on.",
+      "name": "ARIA tilstander og egenskaper er gyldige",
+      "description": "Denne regelen sjekker at WAI-ARIA tilstander og egenskaper er gyldige for elementet de er spesifisert på.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The `{attr}` property is supported or inherited by the `role` {role}.",
-        "F1": "The `{attr}` property is neither inherited nor supported by the `role` {role}."
+        "P1": "`{attr}` egenskapen er gyldig for eller arvet av `role` {role}.",
+        "F1": "`{attr}` egenskapen er hverken arvet eller gyldig for `role` {role}."
       }
     },
     "QW-ACT-R26": {
