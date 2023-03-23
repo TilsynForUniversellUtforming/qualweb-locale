@@ -115,7 +115,7 @@
       }
     },
     "QW-ACT-R14": {
-      "name": "meta viewport hindrer ikke zoom",
+      "name": "Bruk av meta viewport er ikke til hindrer for zoom",
       "description": "Denne regelen sjekker at metaelementet ikke begrenser brukeragentens evne til å zoome.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
@@ -125,13 +125,13 @@
       }
     },
     "QW-ACT-R15": {
-      "name": "audio or video has no audio that plays automatically",
-      "description": "This rule checks that auto-play audio does not last for more than 3 seconds, or the audio has a control mechanism to stop or mute it.",
+      "name": "Det er mulig å styre lyd som starter automatisk og ikke stopper innen 3 sekund",
+      "description": "Denne regelen sjekker at automatisk avspilling av lyd ikke varer i mer enn 3 sekunder, eller at lyden har en kontrollmekanisme for å stoppe eller dempe den.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The rule passed because of the rule ",
-        "W1": "The rule can't tell because of the rule ",
-        "F1": "The rule failed because of the rule "
+        "P1": "Automatisk avspilling av lyd varer ikke i mer enn 3 sekunder, eller lyden har en kontrollmekanisme for å stoppe eller dempe den.",
+        "W1": "Resultatet er ikke mulig å vurdere automatisk.",
+        "F1": "Automatisk avspilling av lyd varer i mer enn 3 sekunder og det finest ikke en kontrollmekanisme for å stoppe eller dempe den."
       }
     },
     "QW-ACT-R16": {
