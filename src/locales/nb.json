@@ -136,7 +136,7 @@
     },
     "QW-ACT-R16": {
       "name": "Skjemaelement har et tilgjengelig navn",
-      "description": "Denne regelen sjekker at skjemaelement har et tilgjengelig navn.",
+      "description": "Denne regelen sjekker at alle skjemaelement har et tilgjengelig navn.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Skjemaelementet har et tilgjengelig navn.",
@@ -145,7 +145,7 @@
     },
     "QW-ACT-R17": {
       "name": "Bilder har et tilgjengelig navn",
-      "description": "Denne regelen sjekker at bilder som ikke er markert som dekorative, har et tilgjengelig navn.",
+      "description": "Denne regelen sjekker at alle bilder som ikke er markert som dekorative, har et tilgjengelig navn.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Bilde er markert som dekorativt.",
@@ -163,12 +163,12 @@
       }
     },
     "QW-ACT-R19": {
-      "name": "iframe element has accessible name",
-      "description": "This rule checks that each iframe element has an accessible name.",
+      "name": "iframe-element har tilgjengelig navn",
+      "description": "Denne regelen sjekker at alle iFrame-element har et tilgjengelig navn.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The test target has an accessible name.",
-        "F1": "The test target accessible name doesn't exist or it's empty ('')."
+        "P1": "iframe-elementet har et tilgjengelig navn.",
+        "F1": "iframe-elementet har et tilgjengelig navn eller det er tomt ('')."
       }
     },
     "QW-ACT-R20": {
