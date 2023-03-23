@@ -95,7 +95,7 @@
       }
     },
     "QW-ACT-R12": {
-      "name": "Lenker har et tilgjenglig navn",
+      "name": "Lenker har et tilgjengelig navn",
       "description": "Denne regelen sjekker at alle lenker har et tilgjengelig navn.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
