@@ -252,7 +252,7 @@
         "I1": "Ingen testobjekt funnet.",
         "P1": "Element med eksplisitt rolle har alle nødvendige tilstander og egenskaper.",
         "P2": "Element med eksplisitt rolle, der den definerte rollen ikke har obligatorisk tilstander eller egenskaper.",
-        "F1": "Element med eksplisitt rolle mangler nødvendig tilstand eller egenskap."
+        "F1": "Element med eksplisitt rolle mangler nødvendige tilstander eller egenskaper."
       }
     },
     "QW-ACT-R29": {
