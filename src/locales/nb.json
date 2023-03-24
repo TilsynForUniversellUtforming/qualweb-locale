@@ -227,13 +227,13 @@
       }
     },
     "QW-ACT-R26": {
-      "name": "video element auditory content has accessible alternative",
-      "description": "This rule checks that video elements have an alternative for information conveyed through audio.",
+      "name": "Video med lyd har et tilgjengelig alternativ",
+      "description": "Denne regelen sjekker at video-elementer med lyd enten er tekstet eller har et tekstalternativ for lydinnholdet.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The rule passed because of the rule ",
-        "W1": "The rule can't tell because of the rule ",
-        "F1": "The rule failed because of the rule "
+        "P1": "Testobjektet fikk resultatet samsvar basert på resultatet fra testregelen ",
+        "W1": "Testobjektet kunne ikke verifiseres basert på resultatet fra testregelen ",
+        "F1": "Testobjektet fikk resultatet feila basert på resultatet fra testregelen "
       }
     },
     "QW-ACT-R27": {
