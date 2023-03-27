@@ -266,13 +266,13 @@
       }
     },
     "QW-ACT-R30": {
-      "name": "Visible label is part of accessible name",
-      "description": "This rule checks that interactive elements labeled through their content have their visible label as part of their accessible name.",
+      "name": "Ledetekst er del av tilgjengelig navn",
+      "description": "Denne regelen sjekker at alle interaktive element med synlig ledetekst også har denne som del av sitt tilgjengelige navn.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The complete visible text content of the test target either matches or is contained within its accessible name.",
-        "F1": "The test target doesn't have an accessible name.",
-        "F2": "The complete visible text content of the test target neither matches or is contained within its accessible name."
+        "P1": "Element med visuell ledetekst har et tilgjengelig navn som er identisk med eller inneholder den visuelle ledeteksten.",
+        "F1": "Element med visuell ledetekst mangler et tilgjengelig navn.",
+        "F2": "Element med visuell ledetekst har et tilgjengelig navn som ikke er inneholder den visuelle ledeteksten."
       }
     },
     "QW-ACT-R31": {
