@@ -276,13 +276,13 @@
       }
     },
     "QW-ACT-R31": {
-      "name": "Video element visual-only content has accessible alternative",
-      "description": "This rule checks that video elements without audio have an alternative available.",
+      "name": "Video uten lyd har et tilgjengelig alternativ",
+      "description": "Denne regelen sjekker at video-elementer uten lyd har et tilgjengelig alternativ.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The rule passed because of the rule ",
-        "W1": "The rule can't tell because of the rule ",
-        "F1": "The rule failed because of the rule "
+        "P1": "Testobjektet fikk resultatet samsvar basert på resultatet fra testregelen ",
+        "W1": "Testobjektet kunne ikke verifiseres basert på resultatet fra testregelen ",
+        "F1": "Testobjektet fikk resultatet feila basert på resultatet fra testregelen "
       }
     },
     "QW-ACT-R32": {
