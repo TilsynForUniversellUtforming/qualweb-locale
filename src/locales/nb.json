@@ -246,7 +246,7 @@
       }
     },
     "QW-ACT-R28": {
-      "name": "Element med role-attributt har nødvendige tilstander og egenskaper.",
+      "name": "Element med role-attributt har nødvendige tilstander og egenskaper",
       "description": "Denne regelen sjekker at element som har en eksplisitt rolle også spesifiserer alle nødvendige tilstander og egenskaper.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
@@ -256,13 +256,13 @@
       }
     },
     "QW-ACT-R29": {
-      "name": "Audio element content has text alternative",
-      "description": "This rule checks if audio only elements have a text alternative available.",
+      "name": "Lydklipp har et tekstalternativ",
+      "description": "Denne regelen sjekker at lydklipp har et tekstalternativ.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The rule passed because of the rule ",
-        "W1": "The rule can't tell because of the rule ",
-        "F1": "The rule failed because of the rule "
+        "P1": "Testobjektet fikk resultatet samsvar basert på resultatet fra testregelen ",
+        "W1": "Testobjektet kunne ikke verifiseres basert på resultatet fra testregelen ",
+        "F1": "Testobjektet fikk resultatet feila basert på resultatet fra testregelen "
       }
     },
     "QW-ACT-R30": {
