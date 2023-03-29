@@ -305,12 +305,12 @@
       }
     },
     "QW-ACT-R34": {
-      "name": "ARIA state or property has valid value",
-      "description": "This rule checks that each ARIA state or property has a valid value.",
+      "name": "ARIA tilstander og egenskaper har gyldig verdi",
+      "description": "Denne regelen sjekker at alle ARIA tilstander og egenskaper er kodet med en gyldig verdi.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The test target `{attr}` attribute has a valid value.",
-        "F1": "The test target `{attr}` attribute has an invalid value."
+        "P1": "Element med `{attr}`-attributtet har en gyldig verdi.",
+        "F1": "Element med `{attr}`-attributtet har en ugyldig verdi."
       }
     },
     "QW-ACT-R35": {
