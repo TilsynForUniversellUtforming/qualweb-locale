@@ -277,7 +277,7 @@
     },
     "QW-ACT-R31": {
       "name": "Video uten lyd har et tilgjengelig alternativ",
-      "description": "Denne regelen sjekker at video-elementer uten lyd har et tilgjengelig alternativ.",
+      "description": "Denne regelen sjekker at video-element uten lyd har et tilgjengelig alternativ.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Testobjektet fikk resultatet samsvar basert på resultatet fra testregelen ",
@@ -286,22 +286,22 @@
       }
     },
     "QW-ACT-R32": {
-      "name": "video element visual content has strict accessible alternative",
-      "description": "This rule checks that video elements with audio have audio description.",
+      "name": "Video med lyd er synstolket",
+      "description": "Denne regelen sjekker at video-element med lyd er synstolket.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The rule passed because of the rule ",
-        "W1": "The rule can't tell because of the rule ",
-        "F1": "The rule failed because of the rule "
+        "P1": "Testobjektet fikk resultatet samsvar basert på resultatet fra testregelen ",
+        "W1": "Testobjektet kunne ikke verifiseres basert på resultatet fra testregelen ",
+        "F1": "Testobjektet fikk resultatet feila basert på resultatet fra testregelen "
       }
     },
     "QW-ACT-R33": {
-      "name": "ARIA required context role",
-      "description": "This rule checks that an element with an explicit semantic role exists inside its required context.",
+      "name": "ARIA påkrevd kontekst-rolle",
+      "description": "Denne regelen sjekker at element med en eksplisitt semantisk rolle finnes inni sin påkrevde kontekst.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The test target parent has the required context `role`.",
-        "F1": "The test target parent doesn't have the required context `role`."
+        "P1": "Element med en eksplisitt semantisk rolle har overordnet element der påkrevd `role` finnes.",
+        "F1": "Element med en eksplisitt semantisk rolle har overordnet element der påkrevd `role` mangler."
       }
     },
     "QW-ACT-R34": {
