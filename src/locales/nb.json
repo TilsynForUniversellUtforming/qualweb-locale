@@ -314,12 +314,12 @@
       }
     },
     "QW-ACT-R35": {
-      "name": "Heading has accessible name",
-      "description": "This rule applies to any HTML element with the semantic role of heading that is included in the accessibility tree.",
+      "name": "Overskrifter har et tilgjengelig navn",
+      "description": "Denne regelen sjekker at alle HTML-element med en semantisk rolle som overskrift her et tilgjengelig navn.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The test target has a non-empty accessible name.",
-        "F1": "The test target accessible name doesn't exist or it's empty ('')."
+        "P1": "HTML-element med en semantisk rolle som overskrift har et tilgjengelig navn.",
+        "F1": "HTML-element med en semantisk rolle som overskrift mangler et tilgjengelig navn eller det er tomt ('')."
       }
     },
     "QW-ACT-R36": {
