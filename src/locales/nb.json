@@ -129,8 +129,8 @@
       "description": "Denne regelen sjekker at automatisk avspilling av lyd ikke varer i mer enn 3 sekunder, eller at det finnes en kontrollmekanisme for å stoppe eller dempe lyd.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Testobjektet fikk samsvar basert testregelen ",
-        "W1": "Testobjektet kunne ikke verifiseres basert testregelen ",
+        "P1": "Testobjektet fikk samsvar basert på testregelen ",
+        "W1": "Testobjektet kunne ikke verifiseres basert på testregelen ",
         "F1": "Testobjektetfeilet basert på testregelen "
       }
     },
