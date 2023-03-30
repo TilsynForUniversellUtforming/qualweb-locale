@@ -105,7 +105,7 @@
     },
     "QW-ACT-R13": {
       "name": "Element med `aria-hidden` inneholder ikke element som kan få fokus",
-      "description": "Denne regelen sjekker at element som er kodet med aria-aria-hidden-attributtet ikke inneholder element som kan få fokus.",
+      "description": "Denne regelen sjekker at element kodet med aria-aria-hidden-attributtet ikke inneholder element som kan få fokus.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Testobjektet inneholder ikke element som kan få fokus.",
@@ -115,8 +115,8 @@
       }
     },
     "QW-ACT-R14": {
-      "name": "Bruk av meta viewport er ikke til hindrer for zoom",
-      "description": "Denne regelen sjekker at bruken av meta-elementet ikke begrenser brukeragentens evne til å zoome.",
+      "name": "Bruk av meta viewport hindrer ikke zoom",
+      "description": "Denne regelen sjekker at bruk av meta-elementet beholder brukeragentens evne til å zoome.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "`meta` element med `name='viewport'` attributt definerer ikke verdiene `maximum-scale` og `user-scalable`.",
@@ -125,13 +125,13 @@
       }
     },
     "QW-ACT-R15": {
-      "name": "Det er mulig å styre lyd som starter automatisk og ikke stopper innen 3 sekund",
-      "description": "Denne regelen sjekker at automatisk avspilling av lyd ikke varer i mer enn 3 sekunder, eller at lyden har en kontrollmekanisme for å stoppe eller dempe den.",
+      "name": "Lyd eller video har ikke lyd som spilles av automatisk",
+      "description": "Denne regelen sjekker at automatisk avspilling av lyd ikke varer i mer enn 3 sekunder, eller at det finnes en kontrollmekanisme for å stoppe eller dempe lyd.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Testobjektet fikk resultatet samsvar basert på resultatet fra testregelen ",
         "W1": "Testobjektet kunne ikke verifiseres basert på resultatet fra testregelen ",
-        "F1": "Testobjektet fikk resultatet feila basert på resultatet fra testregelen "
+        "F1": "Testobjektet fikk resultatet feilet basert på resultatet fra testregelen "
       }
     },
     "QW-ACT-R16": {
@@ -155,11 +155,11 @@
     },
     "QW-ACT-R18": {
       "name": "`id`-attributt har en unik verdi",
-      "description": "Denne regelen sjekker at alle id-attributt innenfor en nettside er unike.",
+      "description": "Denne regelen sjekker at alle id-attributt på en enkelt nettside er unike.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Element med unik verdi på `id`-attributt.",
-        "F1": "Flere element har samme verdi på `id`-attributtet."
+        "P1": "Testobjekt har unik verdi på `id`-attributt.",
+        "F1": "Flere testobjekt har samme verdi på `id`-attributtet."
       }
     },
     "QW-ACT-R19": {
@@ -191,7 +191,7 @@
     },
     "QW-ACT-R22": {
       "name": "lang-attributt har en gyldig språkkode",
-      "description": "Denne regelen kontrollerer at alle ikke-tomme lang-attributt for et element på nettsiden har en gyldig språkkode.",
+      "description": "Denne regelen sjekker at alle ikke-tomme lang-attributt for et element på nettsiden har en gyldig språkkode.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Element har `lang`-attributt med gyldig språkkode.",
@@ -199,13 +199,13 @@
       }
     },
     "QW-ACT-R23": {
-      "name": "Video med lyd er synstolket eller har et tekstalternativ.",
-      "description": "Denne regelen sjekker at alle video-element med lyd har et alternativ for det visuelle innholdet i form av lydspor eller tekst.",
+      "name": "Visuelt innhold i video med lyd er synstolket eller har et tekstalternativ.",
+      "description": "Denne regelen sjekker at alle video-element med lyd har et alternativ for det visuelle innholdet i form av lyd eller tekst.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Testobjektet fikk resultatet samsvar basert på resultatet fra testregelen ",
         "W1": "Testobjektet kunne ikke verifiseres basert på resultatet fra testregelen ",
-        "F1": "Testobjektet fikk resultatet feila basert på resultatet fra testregelen "
+        "F1": "Testobjektet feilet basert på resultatet fra testregelen "
       }
     },
     "QW-ACT-R24": {
@@ -228,12 +228,12 @@
     },
     "QW-ACT-R26": {
       "name": "Video med lyd har et tilgjengelig alternativ",
-      "description": "Denne regelen sjekker at video-element med lyd enten er tekstet eller har et tekstalternativ for lydinnholdet.",
+      "description": "Denne regelen sjekker at video-element med lyd enten er tekstet eller har et tekstalternativ til lyden.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Testobjektet fikk resultatet samsvar basert på resultatet fra testregelen ",
         "W1": "Testobjektet kunne ikke verifiseres basert på resultatet fra testregelen ",
-        "F1": "Testobjektet fikk resultatet feila basert på resultatet fra testregelen "
+        "F1": "Testobjektet fikk resultatet feilet basert på resultatet fra testregelen "
       }
     },
     "QW-ACT-R27": {
