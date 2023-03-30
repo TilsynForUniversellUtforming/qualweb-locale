@@ -262,11 +262,11 @@
         "I1": "Ingen testobjekt funnet.",
         "P1": "Testobjektet fikk resultatet samsvar basert på resultatet fra testregelen ",
         "W1": "Testobjektet kunne ikke verifiseres basert på resultatet fra testregelen ",
-        "F1": "Testobjektet fikk resultatet feila basert på resultatet fra testregelen "
+        "F1": "Testobjektet fikk resultatet feilet basert på resultatet fra testregelen "
       }
     },
     "QW-ACT-R30": {
-      "name": "Ledetekst er del av tilgjengelig navn",
+      "name": "Synlig ledetekst er del av tilgjengelig navn",
       "description": "Denne regelen sjekker at alle interaktive element med synlig ledetekst også har denne som del av sitt tilgjengelige navn.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
@@ -282,7 +282,7 @@
         "I1": "Ingen testobjekt funnet.",
         "P1": "Testobjektet fikk resultatet samsvar basert på resultatet fra testregelen ",
         "W1": "Testobjektet kunne ikke verifiseres basert på resultatet fra testregelen ",
-        "F1": "Testobjektet fikk resultatet feila basert på resultatet fra testregelen "
+        "F1": "Testobjektet fikk resultatet feilet basert på resultatet fra testregelen "
       }
     },
     "QW-ACT-R32": {
@@ -306,7 +306,7 @@
     },
     "QW-ACT-R34": {
       "name": "ARIA tilstander og egenskaper har gyldig verdi",
-      "description": "Denne regelen sjekker at alle ARIA tilstander og egenskaper er kodet med en gyldig verdi.",
+      "description": "Denne regelen sjekker at alle ARIA tilstander og egenskaper har en gyldig verdi.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Element med `{attr}`-attributtet har en gyldig verdi.",
@@ -315,11 +315,11 @@
     },
     "QW-ACT-R35": {
       "name": "Overskrifter har et tilgjengelig navn",
-      "description": "Denne regelen sjekker at alle HTML-element med en semantisk rolle som overskrift her et tilgjengelig navn.",
+      "description": "Denne regelen sjekker at alle HTML-element med semantisk rolle overskrift har et tilgjengelig navn.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "HTML-element med en semantisk rolle som overskrift har et tilgjengelig navn.",
-        "F1": "HTML-element med en semantisk rolle som overskrift mangler et tilgjengelig navn eller det er tomt ('')."
+        "P1": "HTML-element med semantisk rolle overskrift har et tilgjengelig navn.",
+        "F1": "HTML-element med semantisk rolle overskrift mangler et tilgjengelig navn eller det er tomt ('')."
       }
     },
     "QW-ACT-R36": {
@@ -327,9 +327,9 @@
       "description": "Denne regelen sjekker at overskrift-attributt på en celle i en tabell refererer til andre celler i samme tabell-element og at disse har en semantisk rolle som kolonne eller radoverskrift.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Alle overskrifts-attributt referer til en celle i samme tabell med semantisk rolle som kolonne eller radoverskrift.",
-        "F1": "Overskrifts-attributtet `{attr}` referer til en id som ikke finnes i samme tabell.",
-        "F2": "Overskrifts-attributtet `{attr}` referer til et element i samme tabell som mangler semantisk rolle som kolonne eller radoverskrift."
+        "P1": "Alle overskrifts-attributt refererer til en celle i samme tabell med semantisk rolle som kolonne- eller radoverskrift.",
+        "F1": "Overskrifts-attributtet `{attr}` refererer til en id som ikke finnes i samme tabell.",
+        "F2": "Overskrifts-attributtet `{attr}` refererer til et element i samme tabell som mangler semantisk rolle som kolonne- eller radoverskrift."
       }
     },
     "QW-ACT-R37": {
