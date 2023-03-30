@@ -131,7 +131,7 @@
         "I1": "Ingen testobjekt funnet.",
         "P1": "Testobjektet fikk samsvar basert på testregelen ",
         "W1": "Testobjektet kunne ikke verifiseres basert på testregelen ",
-        "F1": "Testobjektetfeilet basert på testregelen "
+        "F1": "Testobjektet feilet basert på testregelen "
       }
     },
     "QW-ACT-R16": {
