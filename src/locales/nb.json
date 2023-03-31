@@ -203,9 +203,9 @@
       "description": "Denne regelen sjekker at alle video-element med lyd har et alternativ for det visuelle innholdet i form av lyd eller tekst.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Testobjektet fikk resultatet samsvar basert på resultatet fra testregelen ",
-        "W1": "Testobjektet kunne ikke verifiseres basert på resultatet fra testregelen ",
-        "F1": "Testobjektet feilet basert på resultatet fra testregelen "
+        "P1": "Testobjektet fikk samsvar basert på testregelen ",
+        "W1": "Testobjektet kunne ikke verifiseres basert på testregelen ",
+        "F1": "Testobjektet feilet basert på testregelen "
       }
     },
     "QW-ACT-R24": {
@@ -260,9 +260,9 @@
       "description": "Denne regelen sjekker at lydklipp har et tekstalternativ.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Testobjektet fikk resultatet samsvar basert på resultatet fra testregelen ",
-        "W1": "Testobjektet kunne ikke verifiseres basert på resultatet fra testregelen ",
-        "F1": "Testobjektet fikk resultatet feilet basert på resultatet fra testregelen "
+        "P1": "Testobjektet fikk samsvar basert på testregelen ",
+        "W1": "Testobjektet kunne ikke verifiseres basert på testregelen ",
+        "F1": "Testobjektet feilet basert på testregelen "
       }
     },
     "QW-ACT-R30": {
@@ -280,9 +280,9 @@
       "description": "Denne regelen sjekker at video-element uten lyd har et tilgjengelig alternativ.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Testobjektet fikk resultatet samsvar basert på resultatet fra testregelen ",
-        "W1": "Testobjektet kunne ikke verifiseres basert på resultatet fra testregelen ",
-        "F1": "Testobjektet fikk resultatet feilet basert på resultatet fra testregelen "
+        "P1": "Testobjektet fikk samsvar basert på testregelen ",
+        "W1": "Testobjektet kunne ikke verifiseres basert på testregelen ",
+        "F1": "Testobjektet feilet basert på testregelen "
       }
     },
     "QW-ACT-R32": {
@@ -290,9 +290,9 @@
       "description": "Denne regelen sjekker at video-element med lyd er synstolket.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Testobjektet fikk resultatet samsvar basert på resultatet fra testregelen ",
-        "W1": "Testobjektet kunne ikke verifiseres basert på resultatet fra testregelen ",
-        "F1": "Testobjektet fikk resultatet feila basert på resultatet fra testregelen "
+        "P1": "Testobjektet fikk samsvar basert på testregelen ",
+        "W1": "Testobjektet kunne ikke verifiseres basert på testregelen ",
+        "F1": "Testobjektet feilet basert på testregelen "
       }
     },
     "QW-ACT-R33": {
