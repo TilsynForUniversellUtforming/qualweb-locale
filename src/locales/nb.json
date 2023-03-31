@@ -333,18 +333,18 @@
       }
     },
     "QW-ACT-R37": {
-      "name": "Text has minimum contrast",
-      "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement.",
+      "name": "Det er tilstrekkelig kontrast mellom tekst og bakgrunn (minimum)",
+      "description": "Denne regelen sjekker at element med tekst oppfyller minstekravet til kontrast mellom tekst og bakgrunn.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Element has contrast ratio higher than minimum.",
-        "P2": "Element doesn't have human language text.",
-        "P3": "Element has gradient with contrast ratio higher than minimum.",
-        "W1": "Element has text-shadow that needs manual verification.",
-        "W2": "Element has an image on background.",
-        "W3": "Element has an gradient that we can't verify.",
-        "F1": "Element has contrast ratio lower than minimum.",
-        "F2": "Element has gradient with contrast ratio lower than minimum."
+        "P1": "Element med målt kontrast over minstekravet.",
+        "P2": "Element har ikke tekst på et menneskelig språk.",
+        "P3": "Element har en gradient med kontrast over minstekravet.",
+        "W1": "Element har tekst-skygge som må verifiseres manuelt.",
+        "W2": "Element har bilde som bakgrunn.",
+        "W3": "Element har en gradient som ikke kan verifiseres automatisk.",
+        "F1": "Element har målt kontrast under minstekravet.",
+        "F2": "Element har en gradient med målt kontrast under minstekravet."
       }
     },
     "QW-ACT-R38": {
