@@ -357,12 +357,12 @@
       }
     },
     "QW-ACT-R39": {
-      "name": "All table header cells have assigned data cells",
-      "description": "This rule checks that each table header has assigned data cells in a table element.",
+      "name": "Alle tabelloverskrifter er tilknyttet dataceller",
+      "description": "Denne regelen sjekker at hver tabelloverskrifter er koblet til en eller flere dataceller i samme table-element",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The column header element has at least one assigned cell.",
-        "F1": "The column header element does not have at least one assigned cell."
+        "P1": "Tabelloverskrift er koblet til minst en datacelle.",
+        "F1": "Tabelloverskrift mangler kobling til datacelle."
       }
     },
     "QW-ACT-R40": {
