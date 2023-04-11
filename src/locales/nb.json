@@ -391,12 +391,12 @@
       }
     },
     "QW-ACT-R43": {
-      "name": "Skrollbare element kan betjenes med tastatur",
-      "description": "Denne regelen sjekker at element som er skrollbare kan betjenes med tastatur.",
+      "name": "Element som skroller kan betjenes med tastatur",
+      "description": "Denne regelen sjekker at element som skroller kan betjenes med tastatur.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Det skrollbare elementet kan få fokus med tastatur.",
-        "F1": "Det skrollbare elementet inkludert underordna element får ikke fokus med tastatur."
+        "P1": "Element som skroller kan få fokus med tastatur.",
+        "F1": "Element som skroller inkludert underordna element får ikke fokus med tastatur."
       }
     },
     "QW-ACT-R44": {
