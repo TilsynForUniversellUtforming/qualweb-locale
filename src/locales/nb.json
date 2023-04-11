@@ -374,11 +374,11 @@
       }
     },
     "QW-ACT-R41": {
-      "name": "Error message describes invalid form field value",
-      "description": "This rule checks that text error messages provided when the user completes a form field with invalid values or using an invalid format, identify the cause of the error or how to fix the error.",
+      "name": "Feilmeldinger i skjema er beskrivende",
+      "description": "Denne regelen sjekker at det blir gitt beskrivende feilmeldinger i skjemaelement når en bruker oppgir en verdi som er ugyldig eller i feil format.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "W1": "Check that text error messages provided, identify the cause of the error or how to fix the error."
+        "W1": "Sjekk at feilmeldingen identifiser årsaken til feilen eller beskriver hvordan feilen kan rettes."
       }
     },
     "QW-ACT-R42": {
