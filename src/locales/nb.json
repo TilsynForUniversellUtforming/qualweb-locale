@@ -357,12 +357,12 @@
       }
     },
     "QW-ACT-R39": {
-      "name": "Alle tabelloverskrifter er tilknyttet dataceller",
-      "description": "Denne regelen sjekker at hver tabelloverskrifter er koblet til en eller flere dataceller i samme table-element",
+      "name": "Alle overskriftceller i en tabell er tilknyttet dataceller",
+      "description": "Denne regelen sjekker at alle overskriftsceller i en tabell er koblet til minst en datacelle i samme table-element",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Tabelloverskrift er koblet til minst en datacelle.",
-        "F1": "Tabelloverskrift mangler kobling til datacelle."
+        "P1": "Overskriftcelle er koblet til minst en datacelle.",
+        "F1": "Overskriftcelle mangler kobling til en datacelle."
       }
     },
     "QW-ACT-R40": {
