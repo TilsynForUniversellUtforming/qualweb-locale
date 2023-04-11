@@ -382,21 +382,21 @@
       }
     },
     "QW-ACT-R42": {
-      "name": "Object-element har et tilgjengelig navn",
+      "name": "object-element har et tilgjengelig navn",
       "description": "Denne regelen sjekker at alle `object`-element har et tilgjengelig navn.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Object-element har et tilgjengelig navn.",
-        "F1": "Object-element mangler et tilgjengelig navn eller det er tomt ('')."
+        "P1": "object-element har et tilgjengelig navn.",
+        "F1": "object-element mangler et tilgjengelig navn eller det er tomt ('')."
       }
     },
     "QW-ACT-R43": {
-      "name": "Scrollable element is keyboard accessible",
-      "description": "This rule checks that scrollable elements can be scrolled by keyboard",
+      "name": "Skrollbare element kan betjenes med tastatur",
+      "description": "Denne regelen sjekker at element som er skrollbare kan betjenes med tastatur.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "This scrollable section element is included in sequential focus navigation.",
-        "F1": "This vertically/horizontally scrollable section element is not included in sequential focus navigation, nor does it have any descendants that are."
+        "P1": "Det skrollbare elementet kan få fokus med tastatur.",
+        "F1": "Det skrollbare elementet inkludert underordna element får ikke fokus med tastatur."
       }
     },
     "QW-ACT-R44": {
