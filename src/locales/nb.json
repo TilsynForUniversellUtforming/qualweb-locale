@@ -382,12 +382,12 @@
       }
     },
     "QW-ACT-R42": {
-      "name": "Object element has non-empty accessible name",
-      "description": "This rule checks that each `object` element has a non-empty accessible name.",
+      "name": "Object-element har et tilgjengelig navn",
+      "description": "Denne regelen sjekker at alle `object`-element har et tilgjengelig navn.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The test target has a non-empty accessible name.",
-        "F1": "The test target accessible name doesn't exist or it's empty ('')."
+        "P1": "Object-element har et tilgjengelig navn.",
+        "F1": "Object-element mangler et tilgjengelig navn eller det er tomt ('')."
       }
     },
     "QW-ACT-R43": {
