@@ -517,12 +517,12 @@
       }
     },
     "QW-ACT-R60": {
-      "name": "video element auditory content has captions",
-      "description": "This rule checks that captions are available for audio information in non-streaming video elements.",
+      "name": "Video med lyd er teksta",
+      "description": "Denne regelen sjekker at forhåndsinnspilt video med lyd er teksta.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "W1": "Can't collect data from the test target.",
-        "W2": "The test target has a sound track but we can't verify the volume. Check if the test target has audio and if it does check if audio content has matching captions."
+        "W1": "Kan ikke samle inn data fra video-element.",
+        "W2": "Videoen har et lydspor, men vi kan ikke verifisere lydstyrken. Sjekk at videoen har lyd og at det finnes teksting som formidler innholdet i videoen sitt lydspor inkludert tale og lydinnhold som er viktig for å forstå videoen."
       }
     },
     "QW-ACT-R61": {
