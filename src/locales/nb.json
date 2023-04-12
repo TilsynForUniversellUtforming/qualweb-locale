@@ -418,23 +418,23 @@
       }
     },
     "QW-ACT-R49": {
-      "name": "Lyd eller video som spilles av automatisk har ingen lyd som varer mer enn 3 sekunder",
+      "name": "Lyd eller video som spilles av automatisk har ikke lyd som varer mer enn 3 sekunder",
       "description": "Denne regelen sjekker at lyd eller video som spilles av automatisk ikke har lyd som varer mer enn 3 sekunder.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Lyd eller video med avspillingstid på 3 sekunder eller mindre.",
+        "P1": "Lyd/video som spilles av automatisk med avspillingstid på 3 sekunder eller mindre.",
         "W1": "Kan ikke samle inn data fra elementet med lyd eller video.",
-        "W2": "Sjekk om elementet med lyd eller video har en synlig kontrollmekanisme."
+        "W2": "Sjekk om lyd/video som spilles av automatisk har en synlig kontrollmekanisme."
       }
     },
     "QW-ACT-R50": {
-      "name": "audio or video that plays automatically has a control mechanism",
-      "description": "audio or video that plays automatically must have a control mechanism.",
+      "name": "Lyd eller video som spilles av automatisk har en kontrollmekanisme.",
+      "description": "Denne regelen sjekker at lyd eller video som spilles av automatisk har en synlig kontrollmekanisme.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The test target has a visible control mechanism.",
-        "W1": "Can't collect data from the test target element.",
-        "W2": "Check if test target has a visible control mechanism."
+        "P1": "Lyd/video som spilles av automatisk med en synlig kontrollmekanise.",
+        "W1": "Kan ikke samle inn data fra elementet med lyd eller video.",
+        "W2": "Sjekk om lyd/video som spilles av automatisk har en synlig kontrollmekanisme."
       }
     },
     "QW-ACT-R51": {
