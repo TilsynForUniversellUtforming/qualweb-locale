@@ -526,12 +526,12 @@
       }
     },
     "QW-ACT-R61": {
-      "name": "Audio and visuals of video element have transcript",
-      "description": "This rule checks that non-streaming video elements have all audio and visual information available in a transcript.",
+      "name": "Video har et tekstalternativ",
+      "description": "Denne regelen sjekket at forhåndsinnspilt video med lyd har et tekstalternativ.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "W1": "Can't collect data from the test target.",
-        "W2": "The test target has a sound track but we can't verify the volume. Check if the test target has audio and a transcript. If it does check if the transcript contains all the visual and audio information of the video."
+        "W1": "Kan ikke samle inn data fra video-element.",
+        "W2": "Videoen har et lydspor, men vi kan ikke verifisere lydstyrken. Sjekk at videoen har lyd og at det finnes et tekstalternativ som gjengir innholdet i videoen."
       }
     },
     "QW-ACT-R62": {
