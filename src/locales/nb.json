@@ -535,11 +535,11 @@
       }
     },
     "QW-ACT-R62": {
-      "name": "Element in sequential focus order has visible focus",
-      "description": "This rule checks that each element in sequential focus order has some visible focus indication.",
+      "name": "Elementet som kan nås med tastatur har visuell fokusmarkering",
+      "description": "Denne regelen sjekker at alle element som kan nåes med tastaturet har visuell fokusmarkering.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "W1": "Check if the element has some visible focus indication"
+        "W1": "Sjekk at elementet har visuell fokusmarkering"
       }
     },
     "QW-ACT-R63": {
