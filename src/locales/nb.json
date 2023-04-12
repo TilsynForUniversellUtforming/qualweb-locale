@@ -409,12 +409,12 @@
       }
     },
     "QW-ACT-R48": {
-      "name": "Element marked as decorative is not exposed",
-      "description": "This rule checks that elements marked as decorative either are not included in the accessibility tree, or have a presentational role.",
+      "name": "Element markert som dekorative er ikke er del av tilgjengelighetstreet",
+      "description": "Denne regelen sjekker at element som er markert som dekorative ikke er del av tilgjengelighetstreet.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The test target is not in the accessibility tree.",
-        "F1": "The test target is in the accessibility tree."
+        "P1": "Element markert som dekorativt er ikke del av tilgjengelighetstreet.",
+        "F1": "Element markert som dekorativt er en del av tilgjengelighetstreet."
       }
     },
     "QW-ACT-R49": {
