@@ -479,7 +479,7 @@
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "W1": "Kan ikke samle inn data fra video-element.",
-        "W2": "Videoen har et lydspor, men vi kan ikke verifisere lydstyrken. Sjekk at lydsporet inneholder lyd og det gjengir det visuelle innholdet i videoen."
+        "W2": "Videoen har et lydspor, men vi kan ikke verifisere lydstyrken. Sjekk at lydsporet inneholder lyd og at det gjengir det visuelle innholdet i videoen."
       }
     },
     "QW-ACT-R56": {
@@ -492,12 +492,12 @@
       }
     },
     "QW-ACT-R57": {
-      "name": "video element visual content has description track",
-      "description": "This rule checks that description tracks that come with non-streaming video elements are descriptive.",
+      "name": "Video med lyd har et beskrivende track-element",
+      "description": "Denne regelen sjekker at forhåndsinnspilte video med lyd har et track-element gjengir innholdet i videoen.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "W1": "Can't collect data from the test target.",
-        "W2": "The test target has a sound track but we can't verify the volume. Check if the test target has audio and if it does check if visual content has an accessible alternative."
+        "W1": "Kan ikke samle inn data fra video-element.",
+        "W2": "Videoen har et lydspor, men vi kan ikke verifisere lydstyrken. Sjekk at videoen har lyd og at innholdet i track-element gjengir det visuelle innholdet i videoen."
       }
     },
     "QW-ACT-R58": {
