@@ -432,7 +432,7 @@
       "description": "Denne regelen sjekker at lyd eller video som spilles av automatisk har en synlig kontrollmekanisme.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Lyd/video som spilles av automatisk har en synlig kontrollmekanise.",
+        "P1": "Lyd/video som spilles av automatisk har en synlig kontrollmekanisme.",
         "W1": "Kan ikke samle inn data fra elementet med lyd eller video.",
         "W2": "Sjekk om lyd/video som spilles av automatisk har en synlig kontrollmekanisme."
       }
@@ -443,21 +443,21 @@
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "W1": "Kan ikke samle inn data om video-elementet.",
-        "W2": "Sjekk at innholdet i videoen samsvarer med informasjonen i teksten."
+        "W2": "Sjekk at innholdet i videoen gjengir informasjonen i teksten."
       }
     },
     "QW-ACT-R52": {
-      "name": "Video uten lyd har et beskrivende lydspor",
-      "description": "Denne regelen sjekker at forhåndsinnspilte video-element uten lyd har et beskrivende lydspor.",
+      "name": "Video uten lyd har et beskrivende track-element",
+      "description": "Denne regelen sjekker at forhåndsinnspilte video-element uten lyd inneholder et track-element som gjengir innholdet i videoen.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "W1": "Kan ikke samle inn data fra video-element.",
-        "W2": "Sjekk at videoen har et beskrivende lydspor."
+        "W2": "Sjekk at innholdet i videoen sitt track-element gjengir innholdet i videoen."
       }
     },
     "QW-ACT-R53": {
       "name": "Video uten lyd har har tekstalternativ",
-      "description": "Denne regelen sjekker at forhåndinnspilt video uten lyd har et tekstalternativ som gjengir innholdet i videoen.",
+      "description": "Denne regelen sjekker at forhåndsinnspilt video uten lyd har et tekstalternativ som gjengir innholdet i videoen.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "W1": "Kan ikke samle inn data fra video-element.",
@@ -465,12 +465,12 @@
       }
     },
     "QW-ACT-R54": {
-      "name": "video element visual-only content has audio track alternative",
-      "description": "Non-streaming video elements without audio must have an audio alternative.",
+      "name": "Video uten lyd har et alternativt lydspor",
+      "description": "Denne regelen sjekker at forhåndsinnspilt video uten lyd har et lyd-alternativ.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "W1": "Can't collect data from the test target.",
-        "W2": "Check if visual content has an accessible alternative."
+        "W1": "Kan ikke samle inn data fra video-element.",
+        "W2": "Sjekk at videoen har minst et lyd-alternativ som gjengir innholdet i videoen."
       }
     },
     "QW-ACT-R55": {
