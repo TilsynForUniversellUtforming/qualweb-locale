@@ -422,7 +422,7 @@
       "description": "Denne regelen sjekker at lyd eller video som spilles av automatisk ikke har lyd som varer mer enn 3 sekunder.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Lyd/video som spilles av automatisk med avspillingstid på 3 sekunder eller mindre.",
+        "P1": "Lyd/video som spilles av automatisk har en avspillingstid på 3 sekunder eller mindre.",
         "W1": "Kan ikke samle inn data fra elementet med lyd eller video.",
         "W2": "Sjekk om lyd/video som spilles av automatisk har en synlig kontrollmekanisme."
       }
@@ -432,18 +432,18 @@
       "description": "Denne regelen sjekker at lyd eller video som spilles av automatisk har en synlig kontrollmekanisme.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Lyd/video som spilles av automatisk med en synlig kontrollmekanise.",
+        "P1": "Lyd/video som spilles av automatisk har en synlig kontrollmekanise.",
         "W1": "Kan ikke samle inn data fra elementet med lyd eller video.",
         "W2": "Sjekk om lyd/video som spilles av automatisk har en synlig kontrollmekanisme."
       }
     },
     "QW-ACT-R51": {
-      "name": "video element visual-only content is media alternative for text",
-      "description": "This rule checks non-streaming silent video is a media alternative for text on the page.",
+      "name": "Video med kun visuelt innhold er et mediealternativ til tekst",
+      "description": "Denne regelen sjekket at forhåndsinnspilt video uten lyd er et mediealternativ for tekst på siden.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "W1": "Can't collect data from the test target.",
-        "W2": "Check that the content in the video matches the information in the text."
+        "W1": "Kan ikke samle inn data om video-elementet.",
+        "W2": "Sjekk at innholdet i videoen samsvarer med informasjonen i teksten."
       }
     },
     "QW-ACT-R52": {
