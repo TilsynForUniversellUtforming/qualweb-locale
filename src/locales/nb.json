@@ -438,7 +438,7 @@
       }
     },
     "QW-ACT-R51": {
-      "name": "Video med kun visuelt innhold er et mediealternativ til tekst",
+      "name": "Video uten lyd er et mediealternativ til tekst",
       "description": "Denne regelen sjekker at forhåndsinnspilt video uten lyd er et mediealternativ for tekst på siden.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
@@ -474,21 +474,21 @@
       }
     },
     "QW-ACT-R55": {
-      "name": "video element visual content has audio description",
-      "description": "This rule checks that non-streaming video elements have all visual information also contained in the audio.",
+      "name": "Forhåndsinnspilt video er synstolka",
+      "description": "Denne regelen sjekker at forhåndsinnspilt video er synstolka.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "W1": "Can't collect data from the test target.",
-        "W2": "The test target has a sound track but we can't verify the volume. Check if the test target has audio and if it does check if visual content has an accessible alternative."
+        "W1": "Kan ikke samle inn data fra video-element.",
+        "W2": "Videoen har et lydspor, men vi kan ikke verifisere lydstyrken. Sjekk at lydsporet inneholder lyd og det gjengir det visuelle innholdet i videoen."
       }
     },
     "QW-ACT-R56": {
-      "name": "video element content is media alternative for text",
-      "description": "This rule checks non-streaming video is a media alternative for text on the page.",
+      "name": "Video er et mediealternativ for tekst.",
+      "description": "Denne regelen sjekker at forhåndsinnspilt video er et mediealternativ for tekst på siden.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "W1": "Can't collect data from the test target.",
-        "W2": "Check that the content in the video matches the information in the text."
+        "W1": "Kan ikke samle inn data fra video-element.",
+        "W2": "Sjekk at innholdet i videoen gjengir informasjonen i teksten."
       }
     },
     "QW-ACT-R57": {
