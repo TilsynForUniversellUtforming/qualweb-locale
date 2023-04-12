@@ -501,19 +501,19 @@
       }
     },
     "QW-ACT-R58": {
-      "name": "audio element content has transcript",
-      "description": "Non-streaming audio elements must have a text alternative for all included auditory information.",
+      "name": "Lydklipp har tekstalternativ",
+      "description": "Denne regelen sjekker at forhåndsinnspilte lydklipp har et tekstalternativ som gjengir innholdet i lydklippet.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "W1": "Check if the test target audio has text-alternative."
+        "W1": "Sjekk at tekstalternativet gjengir innholdet i lydklippet."
       }
     },
     "QW-ACT-R59": {
-      "name": "audio element content is media alternative for text",
-      "description": "This rule checks audio is a media alternative for text on the page.",
+      "name": "Lydklipp er et mediealternativ for tekst",
+      "description": "Denne regelen sjekker at lydklipp er et mediealternativ til tekst på siden.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "W1": "Check that the content in the audio matches the information in the text."
+        "W1": "Sjekk at innholdet i lydklippet gjengir innholdet i teksten"
       }
     },
     "QW-ACT-R60": {
