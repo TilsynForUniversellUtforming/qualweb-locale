@@ -548,7 +548,7 @@
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Siden har ikke gjentatt innhold.",
-        "W1": "Sjekk om det finnes ikke-gjentatt innhold etter gjentatt innhold eller om det eksisterer et element der følgende betingelser er oppfylt: - elementet har en semantisk rolle som arver fra landemerke; og - det første synlige innholdet (i trerekkefølge i det flate treet) som er en inkluderende etterkommer av elementet er ikke-gjentatt innhold etter gjentatt innhold; og - elementet er inkludert i tilgjengelighetstreet."
+        "W1": "Sjekk at det ikke finnes gjentatt innhold som etterfølges av ikke-gjentatt innhold. Dersom ja sjekk om det eksisterer et element der følgende betingelser er oppfylt: - elementet har en semantisk rolle som arver fra landemerke; og - det første synlige innholdet (i trerekkefølge i det flate treet) som er en inkluderende etterkommer av elementet er ikke-gjentatt innhold etter gjentatt innhold; og - elementet er inkludert i tilgjengelighetstreet."
       }
     },
     "QW-ACT-R64": {
@@ -557,7 +557,7 @@
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Siden har ikke gjentatt innhold.",
-        "W1": "Sjekk om det finnes ikke-gjentatt innhold etter gjentatt innhold, eller om det eksisterer et element der følgende betingelser er oppfylt: - elementet er ikke-gjentatt innhold etter gjentatt innhold. - elementet har en semantisk rolle som overskrift. - elementet er visuelt synlig - elementet er inkludert i tilgjengelighetstreet."
+        "W1": "Sjekk at det ikke finnes gjentatt innhold som etterfølges av ikke-gjentatt innhold. Dersom ja sjekk om det eksisterer et element der følgende betingelser er oppfylt: - elementet er ikke-gjentatt innhold etter gjentatt innhold. - elementet har en semantisk rolle som overskrift. - elementet er visuelt synlig - elementet er inkludert i tilgjengelighetstreet."
       }
     },
     "QW-ACT-R65": {
