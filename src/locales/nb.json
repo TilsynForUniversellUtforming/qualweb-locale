@@ -447,12 +447,12 @@
       }
     },
     "QW-ACT-R52": {
-      "name": "video element visual-only content has description track",
-      "description": "This rule checks that description tracks that come with non-streaming video elements, without audio, are descriptive.",
+      "name": "Video uten lyd har et beskrivende lydspor",
+      "description": "Denne testregelen sjekker at forhåndsinnspilte video-element uten lyd har et beskrivende lydspor.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "W1": "Can't collect data from the test target.",
-        "W2": "Check if visual content has an accessible alternative."
+        "W1": "Kan ikke samle inn data fra video-element.",
+        "W2": "Sjekk at det forhåndsinnspilte video-elementet har et beskrivende lydspor."
       }
     },
     "QW-ACT-R53": {
