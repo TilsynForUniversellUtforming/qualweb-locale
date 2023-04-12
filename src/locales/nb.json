@@ -418,13 +418,13 @@
       }
     },
     "QW-ACT-R49": {
-      "name": "Audio or video that plays automatically has no audio that lasts more than 3 seconds",
-      "description": "audio or video that plays automatically does not output audio for more than 3 seconds.",
+      "name": "Lyd eller video som spilles av automatisk har ingen lyd som varer mer enn 3 sekunder",
+      "description": "Denne regelen sjekker at lyd eller video som spilles av automatisk ikke har lyd som varer mer enn 3 sekunder.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The test target plays for 3 seconds or less.",
-        "W1": "Can't collect data from the test target element.",
-        "W2": "Check if test target has a visible control mechanism."
+        "P1": "Lyd eller video med avspillingstid på 3 sekunder eller mindre.",
+        "W1": "Kan ikke samle inn data fra elementet med lyd eller video.",
+        "W2": "Sjekk om elementet med lyd eller video har en synlig kontrollmekanisme."
       }
     },
     "QW-ACT-R50": {
