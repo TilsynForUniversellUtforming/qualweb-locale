@@ -579,14 +579,14 @@
       }
     },
     "QW-ACT-R67": {
-      "name": "Letter spacing in style attributes is not !important",
-      "description": "This rule checks that the style attribute is not used to prevent adjusting letter-spacing by using !important, except if it's at least 0.12 times the font size.",
+      "name": "Bokstavavstand i style-attributt er ikke !important",
+      "description": "Denne regelen sjekker om style-attributtet brukes for å hindre justering av bokstavavstand ved å bruke !important, med mindre verdien er minst 0,12 ganger skriftstørrelsen.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The letter-spacing property is not !important.",
-        "P2": "The letter-spacing is at least 0.12 times the font-size.",
-        "P3": "The cascaded letter-spacing is not the declared value.",
-        "F1": "CSS styles prevent the letter-spacing to be above the minimum value."
+        "P1": "Element der letter-spacing i style-attributt ikke er satt til !important.",
+        "P2": "Element der bokstavavstanden er satt til minst 0.12 ganger skriftstørrelsen.",
+        "P3": "Element der letter-spacing er statt i stilark.",
+        "F1": "Element der letter-spacing i style-attributt hindrer at bokstavavstanden kan blir høyere enn 0.12 ganger skriftstørrelsen."
       }
     },
     "QW-ACT-R68": {
