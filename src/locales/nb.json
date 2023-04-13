@@ -570,12 +570,12 @@
       }
     },
     "QW-ACT-R66": {
-      "name": "Menuitem has non-empty accessible name",
-      "description": "This rule checks that each element with a menuitem role has a non-empty accessible name.",
+      "name": "Element med rolle som menuitem et tilgjengelig navn",
+      "description": "Denne regelen sjekket at element med en rolle som menuitem har et tilgjengelig navn.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The test target has a non-empty accessible name.",
-        "F1": "The test target accessible name doesn't exist or it's empty ('')."
+        "P1": "Element med rolle som menuitem har et tilgjengelig navn.",
+        "F1": "Element med rolle som menuitem mangler et tilgjengelig navn eller det er tomt ('')."
       }
     },
     "QW-ACT-R67": {
