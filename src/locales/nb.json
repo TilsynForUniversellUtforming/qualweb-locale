@@ -585,8 +585,8 @@
         "I1": "Ingen testobjekt funnet.",
         "P1": "Element der letter-spacing i style-attributt ikke er satt til !important.",
         "P2": "Element der bokstavavstanden er satt til minst 0.12 ganger skriftstørrelsen.",
-        "P3": "Element der letter-spacing er statt i stilark.",
-        "F1": "Element der letter-spacing i style-attributt hindrer at bokstavavstanden kan blir høyere enn 0.12 ganger skriftstørrelsen."
+        "P3": "Element der letter-spacing er statt i stilarket.",
+        "F1": "Element der letter-spacing i style-attributt er satt slik at det hindrer at bokstavavstanden kan blir høyere enn 0.12 ganger skriftstørrelsen."
       }
     },
     "QW-ACT-R68": {
