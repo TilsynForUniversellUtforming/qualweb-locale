@@ -631,17 +631,17 @@
       }
     },
     "QW-ACT-R72": {
-      "name": "First focusable element is link to non-repeated content",
-      "description": "This rule checks that the first focusable element is a link to non-repeated content in the page",
+      "name": "Første fokuserbare elementet på nettsiden er en lenke til ikke-gjentatt innhold.",
+      "description": "Denne regelen sjekker om det første fokuserbare elementet på nettsiden er en lenke til ikke-gjentatt innhold.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "W1": "Check that the first focusable element has an accessible name that communicates that it skips content",
-        "W2": "Check that the first focusable element skips to the main content and its accessible name communicates so.",
-        "F1": "The first focusable element is not keyboard actionable.",
-        "F2": "The first focusable element is not in the accessibility tree.",
-        "F3": "The first focusable element does not have the role of link.",
-        "F4": "The first focusable element does not skip to the main content.",
-        "F5": "The page does not have focusable elements."
+        "W1": "Sjekk at det første fokuserbare elementet har et tilgjengelig navn som formidler at det hopper over innhold.",
+        "W2": "Sjekk at det første fokuserbare elementet lenker til sidens hovedinnholdet og at det tilgjengelige navnet formidler dette.",
+        "F1": "Det første fokuserbare elementet kan ikke aktiveres med tastaturet.",
+        "F2": "Det første fokuserbare elementet er ikke i tilgjengelighetstreet.",
+        "F3": "Det første fokuserbare elementet har ikke rolle som lenke.",
+        "F4": "Det første fokuserbare elementet lenker ikke til hovedinnholdet.",
+        "F5": "Siden har ingen element som kan få fokus."
       }
     },
     "QW-ACT-R73": {
