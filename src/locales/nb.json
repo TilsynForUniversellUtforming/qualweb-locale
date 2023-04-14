@@ -579,36 +579,36 @@
       }
     },
     "QW-ACT-R67": {
-      "name": "Bokstavavstand i style-attributt er ikke !important",
-      "description": "Denne regelen sjekker om style-attributtet brukes for å hindre justering av bokstavavstand ved å bruke !important, med mindre verdien er minst 0,12 ganger skriftstørrelsen.",
+      "name": "Bokstavavstand i style-attributt bruker ikke !important",
+      "description": "Denne regelen sjekker at style-attributtet angir en bokstavavstand(letter-spacing) på minst minst 0,12 ganger skriftstørrelsen eller at det ikke er brukt !important for å hindre justering av bokstavavstanden.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Element der letter-spacing i style-attributt ikke er satt til !important.",
-        "P2": "Element der bokstavavstanden er satt til minst 0.12 ganger skriftstørrelsen.",
+        "P1": "Element der letter-spacing i style-attributtet ikke er satt til !important.",
+        "P2": "Element der letter-spacing i style-attributtet er satt til 0.12 ganger skriftstørrelsen  eller mer.",
         "P3": "Element der letter-spacing er statt i stilarket.",
-        "F1": "Element der letter-spacing i style-attributt er satt slik at det hindrer at bokstavavstanden kan blir høyere enn 0.12 ganger skriftstørrelsen."
+        "F1": "Element der letter-spacing i style-attributtet er satt slik at det hindrer at bokstavavstanden kan blir høyere enn 0.12 ganger skriftstørrelsen."
       }
     },
     "QW-ACT-R68": {
-      "name": "Line height in style attributes is not !important",
-      "description": "This rule checks that the style attribute is not used to prevent adjusting line-height by using !important, except if it's at least 1.5 times the font size.",
+      "name": "Linjehøyde i style-attributt bruker ikke !important",
+      "description": "Denne regelen sjekker om style-attributtet enten angir en linjehøyde(line-height) på minst 1.5 ganger skriftsstørelse eller at at det ikke er brukt !important for å hindre justering av linjehøyden.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The line-height property is not !important.",
-        "P2": "The line-height is at least 1.5 times the font-size.",
-        "P3": "The cascaded line-height is not the declared value.",
-        "F1": "CSS styles prevent the line-height to be above the minimum value."
+        "P1": "Element der line-height i style-attributtet ikke er satt til !important.",
+        "P2": "Element der line-height er satt til 1.5 ganger skriftstørrelsen eller mer.",
+        "P3": "Element der line-height er statt i stilarket.",
+        "F1": "Element der line-height i style-attributtet er satt slik at det hindrer at linjehøyden kan blir høyere enn 1.5 ganger skriftstørrelsen."
       }
     },
     "QW-ACT-R69": {
-      "name": "Word spacing in style attributes is not !important",
-      "description": "This rule checks that the style attribute is not used to prevent adjusting word-spacing by using !important, except if it's at least 0.16 times the font size.",
+      "name": "Ordavstand i style-attributt bruker ikke !important",
+      "description": "Denne regelen sjekker om style-attributtet angir en ordavstand(word-spacing) for å hindre justering av ordavstand ved å bruke !important, med mindre verdien er minst 0.16 ganger skriftstørrelsen.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The word-spacing property is not !important.",
-        "P2": "The word-spacing is at least 0.16 times the font-size.",
-        "P3": "The cascaded word-spacing is not the declared value.",
-        "F1": "CSS styles prevent the word-spacing to be above the minimum value."
+        "P1": "Element der word-spacing i style-attributtet ikke er satt til !important.",
+        "P2": "Element der word-spacing i style-attributtet er satt til 0.16 ganger skriftstørrelsen  eller mer.",
+        "P3": "Element der word-spacing er statt i stilarket.",
+        "F1": "Element der word-spacing i style-attributtet er satt slik at det hindrer at ordavstanden kan blir høyere enn 0.16 ganger skriftstørrelsen."
       }
     },
     "QW-ACT-R70": {
