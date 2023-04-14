@@ -645,12 +645,12 @@
       }
     },
     "QW-ACT-R73": {
-      "name": "Block of repeated content is collapsible",
-      "description": "This rule checks that repeated blocks of content are collapsible.",
+      "name": "Blokker med gjentatt innhold kan foldes sammen",
+      "description": "Denne regelen sjekker om blokker med gjentatte innhold kan foldes sammen.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The page doesn't have repeated content.",
-        "W1": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, check that all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree."
+        "P1": "Siden har ikke gjentatt innhold.",
+        "W1": "For hver blokk med gjentatt innhold som er plassert (i det flate treet) før minst én node med ikke-gjentatt innhold etter gjentatt innhold, sjekk at det finnes en mekanisme for å gjøre alle noder i denne blokken usynlige både visuelt og i tilgjengelighetstreet."
       }
     },
     "QW-ACT-R74": {
