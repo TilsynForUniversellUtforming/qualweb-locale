@@ -621,13 +621,13 @@
       }
     },
     "QW-ACT-R71": {
-      "name": "`meta` element has no refresh delay (no exception)",
-      "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing.",
+      "name": "`meta`-element har ingen oppdateringsforsinkelse (ingen unntak)",
+      "description": "Denne regelen sjekker om meta-elementet blir brukt for forsinket omdirigering eller oppdatering av en nettside.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The test target refreshes/redirects immediately.",
-        "F1": "The test target refreshes after {seconds} seconds.",
-        "F2": "The test target redirects after {seconds} seconds."
+        "P1": "Nettsiden oppdaterer/omdirigerer umiddelbart.",
+        "F1": "Nettsiden oppdaterer seg etter {seconds} sekunder.",
+        "F2": "Nettsiden omdirigerer etter {seconds} sekunder."
       }
     },
     "QW-ACT-R72": {
