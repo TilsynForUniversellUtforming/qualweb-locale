@@ -673,18 +673,18 @@
       }
     },
     "QW-ACT-R76": {
-      "name": "Text has enhanced contrast",
-      "description": "This rule checks that the highest possible contrast of every text character with its background meets the enhanced contrast requirement.",
+      "name": "Teksten har forbedret kontrast",
+      "description": "Denne regelen sjekker om den høyest mulige kontrasten for hvert teksttegn mot sin bakgrunn møter kravene for forbedret kontrast.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Element has contrast ratio higher than minimum.",
-        "P2": "Element doesn't have human language text.",
-        "P3": "Element has gradient with contrast ratio higher than minimum.",
-        "W1": "Element has text-shadow that needs manual verification.",
-        "W2": "Element has an image on background.",
-        "W3": "Element has an gradient that we can't verify.",
-        "F1": "Element has contrast ratio lower than minimum.",
-        "F2": "Element has gradient with contrast ratio lower than minimum."
+        "P1": "Elementet har kontrastforhold høyere enn minimum.",
+        "P2": "Elementet inneholder ikke menneskelig språklig tekst.",
+        "P3": "Elementet har gradient med kontrastforhold høyre enn minimum.",
+        "W1": "Elementet inneholder tekstskygge som krever manuell verifisering.",
+        "W2": "Elementet bruker et bilde som bakgrunn.",
+        "W3": "Elementet har en gradient som ikke kan verifiseres.",
+        "F1": "Elementet har kontrastforhold høyre enn minimum.",
+        "F2": "Elementet har en gradient med kontrastforhold lavere enn minimum."
       }
     }
   },
