@@ -612,12 +612,12 @@
       }
     },
     "QW-ACT-R70": {
-      "name": "iframe with negative tabindex has no interactive elements",
-      "description": "This rule checks that `iframe` elements with a negative `tabindex` attribute value contain no interactive elements.",
+      "name": "iframe-element med negativ tabindex har ingen interaktive elementer.",
+      "description": "Denne regelen sjekker om `iframe`-element med en negativ `tabindex`-attributtverdi inneholder interaktive elementer.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The nested browsing context does not include elements that are visible and part of the sequential focus navigation.",
-        "F1": "The nested browsing context includes elements that are visible and part of the sequential focus navigation."
+        "P1": "iframe-element med negativ tabindex inneholder ikke elementer som er synlige eller kan få fokus.",
+        "F1": "iframe-element med negativ tabindex inneholder elementer som er synlige eller kan få fokus."
       }
     },
     "QW-ACT-R71": {
