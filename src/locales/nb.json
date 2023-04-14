@@ -654,13 +654,12 @@
       }
     },
     "QW-ACT-R74": {
-      "name": "Document has an instrument to move focus to non-repeated content",
-      "description": "This rule checks that there is an instrument to move focus to non-repeated content in the page.",
+      "name": "Siden har en mekanisme for å flytte fokus til ikke-gjentatt innhold",
+      "description": "Denne regelen sjekker om det finnes en mekanisme for å flytte fokus til ikke-gjentatt innhold på siden.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "The page doesn't have repeated content.",
-        "W1": "The page has one or more instrument(s) to move focus. Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.",
-        "W2": "Check if the page has any instrument(s) to move focus. Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content."
+        "P1": "Siden har ikke gjentatt innhold.",
+        "W1": "Siden har en eller flere mekanismer for å flytte fokus. Sjekk om noen av disse mekanismene blir brukt før en blokk med gjentatt innhold, og om fokus blir flyttet til rett før en blokk med ikke-gjentatt innhold."
       }
     },
     "QW-ACT-R75": {
