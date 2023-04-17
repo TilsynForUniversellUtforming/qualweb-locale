@@ -562,24 +562,24 @@
     },
     "QW-ACT-R65": {
       "name": "Element ment for presentasjon får ikke fokus",
-      "description": "Denne regelen sjekker at element med en rolle som gjør at alle underordna element er ment for presentasjon ikke inneholder element som kan få fokus.",
+      "description": "Denne regelen sjekker at element med en rolle der alle underordnede element er ment for presentasjon, ikke inneholder element som kan få fokus.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Elementet har ingen underordna element som kan få fokus.",
-        "F1": "Elementet har underordna element som kan få fokus."
+        "P1": "Elementet har ingen underordnede element som kan få fokus.",
+        "F1": "Elementet har underordnede element som kan få fokus."
       }
     },
     "QW-ACT-R66": {
       "name": "Element med rolle som menuitem et tilgjengelig navn",
-      "description": "Denne regelen sjekket at element med en rolle som menuitem har et tilgjengelig navn.",
+      "description": "Denne regelen sjekket at element med rolle menuitem har et tilgjengelig navn.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Element med rolle som menuitem har et tilgjengelig navn.",
-        "F1": "Element med rolle som menuitem mangler et tilgjengelig navn eller det er tomt ('')."
+        "P1": "Element med rolle menuitem har et tilgjengelig navn.",
+        "F1": "Element med rolle menuitem mangler et tilgjengelig navn eller det er tomt ('')."
       }
     },
     "QW-ACT-R67": {
-      "name": "Bokstavavstand i style-attributt bruker ikke !important",
+      "name": "Bokstavavstand i style-attributtet bruker ikke !important",
       "description": "Denne regelen sjekker at style-attributtet angir en bokstavavstand(letter-spacing) på minst minst 0,12 ganger skriftstørrelsen eller at det ikke er brukt !important for å hindre justering av bokstavavstanden.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
@@ -590,7 +590,7 @@
       }
     },
     "QW-ACT-R68": {
-      "name": "Linjehøyde i style-attributt bruker ikke !important",
+      "name": "Linjehøyde i style-attributtet bruker ikke !important",
       "description": "Denne regelen sjekker om style-attributtet enten angir en linjehøyde(line-height) på minst 1.5 ganger skriftsstørelse eller at at det ikke er brukt !important for å hindre justering av linjehøyden.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
@@ -601,7 +601,7 @@
       }
     },
     "QW-ACT-R69": {
-      "name": "Ordavstand i style-attributt bruker ikke !important",
+      "name": "Ordavstand i style-attributtet bruker ikke !important",
       "description": "Denne regelen sjekker om style-attributtet angir en ordavstand(word-spacing) for å hindre justering av ordavstand ved å bruke !important, med mindre verdien er minst 0.16 ganger skriftstørrelsen.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
@@ -636,7 +636,7 @@
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "W1": "Sjekk at det første fokuserbare elementet har et tilgjengelig navn som formidler at det hopper over innhold.",
-        "W2": "Sjekk at det første fokuserbare elementet lenker til sidens hovedinnholdet og at det tilgjengelige navnet formidler dette.",
+        "W2": "Sjekk at det første fokuserbare elementet lenker til sidens hovedinnhold og at det tilgjengelige navnet formidler dette.",
         "F1": "Det første fokuserbare elementet kan ikke aktiveres med tastaturet.",
         "F2": "Det første fokuserbare elementet er ikke i tilgjengelighetstreet.",
         "F3": "Det første fokuserbare elementet har ikke rolle som lenke.",
@@ -654,8 +654,8 @@
       }
     },
     "QW-ACT-R74": {
-      "name": "Siden har en mekanisme for å flytte fokus til ikke-gjentatt innhold",
-      "description": "Denne regelen sjekker om det finnes en mekanisme for å flytte fokus til ikke-gjentatt innhold på siden.",
+      "name": "Nettsiden har en mekanisme for å flytte fokus til ikke-gjentatt innhold",
+      "description": "Denne regelen sjekker om det finnes en mekanisme for å flytte fokus til ikke-gjentatt innhold på nettsiden.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Siden har ikke gjentatt innhold.",
@@ -664,7 +664,7 @@
     },
     "QW-ACT-R75": {
       "name": "Hopp over blokker med gjenntatt innhold",
-      "description": "Denne regelen sjekker at hver side har en mekanisme for å hoppe over blokker med gjentatte innhold.",
+      "description": "Denne regelen sjekker at hver nettside har en mekanisme for å hoppe over blokker med gjentatt innhold.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Testobjektet fikk samsvar basert på testregelen ",
