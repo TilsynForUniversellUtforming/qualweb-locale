@@ -182,11 +182,11 @@
     },
     "QW-ACT-R21": {
       "name": "svg-element med en eksplisitt rolle har et tilgjengelig navn",
-      "description": "Denne regelen sjekker at alle SVG-element som er eksplisitt inkludert i tilgjengelighetstreet har et tilgjengelig navn.",
+      "description": "Denne regelen sjekker at alle SVG-element som er eksplisitt inkludert i accessibility tree har et tilgjengelig navn.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "svg-element som er inkludert i tilgjengelighetstreet har et tilgjengelig navn.",
-        "F1": "svg-element som er inkludert i tilgjengelighetstreet mangler et tilgjengelig navn eller det er tomt ('')."
+        "P1": "svg-element som er inkludert i accessibility tree har et tilgjengelig navn.",
+        "F1": "svg-element som er inkludert i accessibility tree mangler et tilgjengelig navn eller det er tomt ('')."
       }
     },
     "QW-ACT-R22": {
@@ -367,22 +367,22 @@
     },
     "QW-ACT-R40": {
       "name": "CSS-overflow fører ikke til tap av innhold ved zooming.",
-      "description": "Denne regelen sjekker at bruk av CSS-overflow på tekst-elementer ikke fører til tap av innhold når siden blir zoomet inn med 200% på en 1280 x 1024 piksel stor presentasjonsramme.",
+      "description": "Denne regelen sjekker at bruk av CSS-overflow på tekst-elementer ikke fører til tap av innhold når siden blir zoomet inn med 200% på en 1280 x 1024 piksel stor viewport.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "W1": "Sjekk at tekst-elementet og underliggende element ikke mister innhold som følger av overflow."
       }
     },
     "QW-ACT-R41": {
-      "name": "Feilmeldinger om feil verdi i skjema er beskrivende."   
-      "description": "Denne regelen sjekker at når brukeren oppgir en ugyldig verdi eller feil format, gis en feilemding som beskriver årsaken til feilen eller hvordan feilen kan rettes.",
+      "name": "Feilmeldinger i skjema er beskrivende",
+      "description": "Denne regelen sjekker at det blir gitt beskrivende feilmeldinger i skjemaelement når en bruker oppgir en verdi som er ugyldig eller i feil format.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "W1": "Sjekk at feilmeldingen identifiser årsaken til feilen eller beskriver hvordan feilen kan rettes."
       }
     },
     "QW-ACT-R42": {
-      "name": "Object-element har et tilgjengelig navn",
+      "name": "object-element har et tilgjengelig navn",
       "description": "Denne regelen sjekker at alle `object`-element har et tilgjengelig navn.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
@@ -392,16 +392,16 @@
     },
     "QW-ACT-R43": {
       "name": "Element som skroller kan betjenes med tastatur",
-      "description": "Denne regelen sjekker at element som scroller kan betjenes med tastatur.",
+      "description": "Denne regelen sjekker at element som skroller kan betjenes med tastatur.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Element som scroller kan få fokus med tastatur.",
-        "F1": "Element som scroller inkludert underordnede elementer får ikke fokus med tastatur."
+        "P1": "Element som skroller kan få fokus med tastatur.",
+        "F1": "Element som skroller inkludert underordna element får ikke fokus med tastatur."
       }
     },
     "QW-ACT-R44": {
-      "name": "Lenker med identisk tilgjengelig navn og kontekst går til samme eller tilsvarende lenkemål.",
-      "description": "Denne regelen sjekker at lenker med identisk tilgjengelige navn og kontekst går til samme eller tilsvarende lenkemål.",
+      "name": "Lenker med samme tilgjengelige navn går til samme eller tilsvarende lenkemål.",
+      "description": "Denne regelen sjekker at lenker med samme tilgjengelige navn går til samme eller tilsvarende lenkemål.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Lenker med samme tilgjengelige navn har samme lenkemål.",
@@ -409,12 +409,12 @@
       }
     },
     "QW-ACT-R48": {
-      "name": "Element markert som dekorativt er ikke er del av tilgjengelighetstreet (accsessibility tree)",
-      "description": "Denne regelen sjekker at element som er markert som dekorative ikke er del av tilgjengelighetstreet (accsessibility tree).",
+      "name": "Element markert som dekorative er ikke er del av accessibility tree",
+      "description": "Denne regelen sjekker at element som er markert som dekorative ikke er del av accessibility tree.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Element markert som dekorativt er ikke del av tilgjengelighetstreet (accsessibility tree).",
-        "F1": "Element markert som dekorativt er en del av tilgjengelighetstreet(accsessibility tree)."
+        "P1": "Element markert som dekorativt er ikke del av accessibility tree.",
+        "F1": "Element markert som dekorativt er en del av accessibility tree."
       }
     },
     "QW-ACT-R49": {
@@ -452,12 +452,12 @@
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "W1": "Kan ikke samle inn data fra video-element.",
-        "W2": "Sjekk at innholdet i videoens track-element gjengir innholdet i videoen."
+        "W2": "Sjekk at innholdet i videoen sitt track-element gjengir innholdet i videoen."
       }
     },
     "QW-ACT-R53": {
       "name": "Video uten lyd har har tekstalternativ",
-      "description": "Denne regelen sjekker at forhåndsinnspilt video uten lyd har et tekstalternativ som gjengir det visuelle innholdet i videoen.",
+      "description": "Denne regelen sjekker at forhåndsinnspilt video uten lyd har et tekstalternativ som gjengir innholdet i videoen.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "W1": "Kan ikke samle inn data fra video-element.",
@@ -465,7 +465,7 @@
       }
     },
     "QW-ACT-R54": {
-      "name": "Video uten lyd har et lyd-alternativ",
+      "name": "Video uten lyd har et alternativt lydspor",
       "description": "Denne regelen sjekker at forhåndsinnspilt video uten lyd har et lyd-alternativ.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
@@ -474,8 +474,8 @@
       }
     },
     "QW-ACT-R55": {
-      "name": "Visuelt innhold i forhåndsinnspilt video er synstolket",
-      "description": "Denne regelen sjekker at visuelt innhold i forhåndsinnspilt video også blir formidlet som lyd.",
+      "name": "Forhåndsinnspilt video er synstolka",
+      "description": "Denne regelen sjekker at forhåndsinnspilt video er synstolka.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "W1": "Kan ikke samle inn data fra video-element.",
@@ -484,7 +484,7 @@
     },
     "QW-ACT-R56": {
       "name": "Video er et mediealternativ for tekst.",
-      "description": "Denne regelen sjekker om forhåndsinnspilt video er et mediealternativ for tekst på siden.",
+      "description": "Denne regelen sjekker at forhåndsinnspilt video er et mediealternativ for tekst på siden.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "W1": "Kan ikke samle inn data fra video-element.",
@@ -493,7 +493,7 @@
     },
     "QW-ACT-R57": {
       "name": "Video med lyd har et beskrivende track-element",
-      "description": "Denne regelen sjekker at forhåndsinnspilt video med lyd har et track-element som gjengir innholdet i videoen.",
+      "description": "Denne regelen sjekker at forhåndsinnspilte video med lyd har et track-element gjengir innholdet i videoen.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "W1": "Kan ikke samle inn data fra video-element.",
@@ -502,7 +502,7 @@
     },
     "QW-ACT-R58": {
       "name": "Lydklipp har tekstalternativ",
-      "description": "Denne regelen sjekker at forhåndsinnspilt lydklipp har et tekstalternativ som gjengir innholdet i lydklippet.",
+      "description": "Denne regelen sjekker at forhåndsinnspilte lydklipp har et tekstalternativ som gjengir innholdet i lydklippet.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "W1": "Sjekk at tekstalternativet gjengir innholdet i lydklippet."
@@ -510,19 +510,19 @@
     },
     "QW-ACT-R59": {
       "name": "Lydklipp er et mediealternativ for tekst",
-      "description": "Denne regelen sjekker om lydklipp er et mediealternativ til tekst på siden.",
+      "description": "Denne regelen sjekker at lydklipp er et mediealternativ til tekst på siden.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "W1": "Sjekk at innholdet i lydklippet gjengir innholdet i teksten"
       }
     },
     "QW-ACT-R60": {
-      "name": "Video med lyd er tekstet",
-      "description": "Denne regelen sjekker at forhåndsinnspilt video med lyd er tekstet.",
+      "name": "Video med lyd er teksta",
+      "description": "Denne regelen sjekker at forhåndsinnspilt video med lyd er teksta.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "W1": "Kan ikke samle inn data fra video-element.",
-        "W2": "Videoen har et lydspor, men vi kan ikke verifisere lydstyrken. Sjekk at videoen har lyd og at det finnes teksting som formidler innholdet i videoens lydspor (inkludert tale og lydinnhold som er viktig for å forstå videoen)."
+        "W2": "Videoen har et lydspor, men vi kan ikke verifisere lydstyrken. Sjekk at videoen har lyd og at det finnes teksting som formidler innholdet i videoens lydspor."
       }
     },
     "QW-ACT-R61": {
@@ -535,51 +535,51 @@
       }
     },
     "QW-ACT-R62": {
-      "name": "Elementet som kan nås med tastatur har synlig fokusmarkering",
-      "description": "Denne regelen sjekker at alle element som kan nåes med tastaturet har synlig fokusmarkering.",
+      "name": "Elementet som kan nås med tastatur har visuell fokusmarkering",
+      "description": "Denne regelen sjekker at alle element som kan nåes med tastaturet har visuell fokusmarkering.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "W1": "Sjekk at elementet har visuell fokusmarkering"
       }
     },
     "QW-ACT-R63": {
-      "name": "Nettside har et landemerke med ikke-gjentatt innhold",
-      "description": "Denne regelen sjekker at hver nettside inneholder et element med semantisk rolle som landmerke, som starter med ikke-gjentatt innhold.",
+      "name": "Dokument har et landemerke med ikke-gjentatt innhold",
+      "description": "Denne regelen sjekker at hver side inneholder et element med semantisk rolle som landmerke og som starter med ikke-gjentatt innhold.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Siden har ikke gjentatt innhold.",
-        "W1": "Sjekk at det ikke finnes gjentatt innhold som etterfølges av ikke-gjentatt innhold. Dersom ja sjekk om det eksisterer et element der følgende betingelser er oppfylt: - elementet har en semantisk rolle som arver fra landemerke; og - det første synlige innholdet (i trerekkefølge i det flate treet) som er en inkluderende etterkommer av elementet er ikke-gjentatt innhold etter gjentatt innhold; og - elementet er inkludert i tilgjengelighetstreet."
+        "W1": "Sjekk at det ikke finnes gjentatt innhold som etterfølges av ikke-gjentatt innhold. Dersom ja sjekk om det eksisterer et element der følgende betingelser er oppfylt: - elementet har en semantisk rolle som arver fra landemerke; og - det første synlige innholdet (in tree order in the flat tree) som er en inkluderende etterkommer av elementet er ikke-gjentatt innhold etter gjentatt innhold; og - elementet er inkludert i accessibility tree."
       }
     },
     "QW-ACT-R64": {
-      "name": "Nettside har overskrift for ikke-gjentatt innhold",
-      "description": "Denne regelen sjekker at ikke-gjentatt innhold på nettsider har en overskrift.",
+      "name": "Dokument har overskrift for ikke-gjentatt innhold",
+      "description": "Denne regelen sjekker at ikke-gjentatt innhold på nettsider inneholder en overskrift.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Siden har ikke gjentatt innhold.",
-        "W1": "Sjekk at det ikke finnes gjentatt innhold som etterfølges av ikke-gjentatt innhold. Dersom ja sjekk om det eksisterer et element der følgende betingelser er oppfylt: - elementet er ikke-gjentatt innhold etter gjentatt innhold. - elementet har en semantisk rolle som overskrift. - elementet er visuelt synlig - elementet er inkludert i tilgjengelighetstreet."
+        "W1": "Sjekk at det ikke finnes gjentatt innhold som etterfølges av ikke-gjentatt innhold. Dersom ja sjekk om det eksisterer et element der følgende betingelser er oppfylt: - elementet er ikke-gjentatt innhold etter gjentatt innhold. - elementet har en semantisk rolle som overskrift. - elementet er visuelt synlig - elementet er inkludert i accessibility tree."
       }
     },
     "QW-ACT-R65": {
       "name": "Element ment for presentasjon får ikke fokus",
-      "description": "Denne regelen sjekker at element med en rolle der alle underordnede element er ment for presentasjon, ikke inneholder element som kan få fokus.",
+      "description": "Denne regelen sjekker at element med en rolle som gjør at alle underordna element er ment for presentasjon ikke inneholder element som kan få fokus.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Elementet har ingen underordnede element som kan få fokus.",
-        "F1": "Elementet har underordnede element som kan få fokus."
+        "P1": "Elementet har ingen underordna element som kan få fokus.",
+        "F1": "Elementet har underordna element som kan få fokus."
       }
     },
     "QW-ACT-R66": {
       "name": "Element med rolle som menuitem et tilgjengelig navn",
-      "description": "Denne regelen sjekket at element med rolle menuitem har et tilgjengelig navn.",
+      "description": "Denne regelen sjekket at element med en rolle som menuitem har et tilgjengelig navn.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Element med rolle menuitem har et tilgjengelig navn.",
-        "F1": "Element med rolle menuitem mangler et tilgjengelig navn eller det er tomt ('')."
+        "P1": "Element med rolle som menuitem har et tilgjengelig navn.",
+        "F1": "Element med rolle som menuitem mangler et tilgjengelig navn eller det er tomt ('')."
       }
     },
     "QW-ACT-R67": {
-      "name": "Bokstavavstand i style-attributtet bruker ikke !important",
+      "name": "Bokstavavstand i style-attributt bruker ikke !important",
       "description": "Denne regelen sjekker at style-attributtet angir en bokstavavstand(letter-spacing) på minst minst 0,12 ganger skriftstørrelsen eller at det ikke er brukt !important for å hindre justering av bokstavavstanden.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
@@ -590,7 +590,7 @@
       }
     },
     "QW-ACT-R68": {
-      "name": "Linjehøyde i style-attributtet bruker ikke !important",
+      "name": "Linjehøyde i style-attributt bruker ikke !important",
       "description": "Denne regelen sjekker om style-attributtet enten angir en linjehøyde(line-height) på minst 1.5 ganger skriftsstørelse eller at at det ikke er brukt !important for å hindre justering av linjehøyden.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
@@ -601,7 +601,7 @@
       }
     },
     "QW-ACT-R69": {
-      "name": "Ordavstand i style-attributtet bruker ikke !important",
+      "name": "Ordavstand i style-attributt bruker ikke !important",
       "description": "Denne regelen sjekker om style-attributtet angir en ordavstand(word-spacing) for å hindre justering av ordavstand ved å bruke !important, med mindre verdien er minst 0.16 ganger skriftstørrelsen.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
@@ -636,9 +636,9 @@
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "W1": "Sjekk at det første fokuserbare elementet har et tilgjengelig navn som formidler at det hopper over innhold.",
-        "W2": "Sjekk at det første fokuserbare elementet lenker til sidens hovedinnhold og at det tilgjengelige navnet formidler dette.",
+        "W2": "Sjekk at det første fokuserbare elementet lenker til sidens hovedinnholdet og at det tilgjengelige navnet formidler dette.",
         "F1": "Det første fokuserbare elementet kan ikke aktiveres med tastaturet.",
-        "F2": "Det første fokuserbare elementet er ikke i tilgjengelighetstreet.",
+        "F2": "Det første fokuserbare elementet er ikke i accessibility tree.",
         "F3": "Det første fokuserbare elementet har ikke rolle som lenke.",
         "F4": "Det første fokuserbare elementet lenker ikke til hovedinnholdet.",
         "F5": "Siden har ingen element som kan få fokus."
@@ -650,12 +650,12 @@
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Siden har ikke gjentatt innhold.",
-        "W1": "For hver blokk med gjentatt innhold som er plassert (i det flate treet) før minst én node med ikke-gjentatt innhold etter gjentatt innhold, sjekk at det finnes en mekanisme for å gjøre alle noder i denne blokken usynlige både visuelt og i tilgjengelighetstreet."
+        "W1": "For hver blokk med gjentatt innhold som er plassert (i det flate treet) før minst én node med ikke-gjentatt innhold etter gjentatt innhold, sjekk at det finnes en mekanisme for å gjøre alle noder i denne blokken usynlige både visuelt og i accessibility tree."
       }
     },
     "QW-ACT-R74": {
-      "name": "Nettsiden har en mekanisme for å flytte fokus til ikke-gjentatt innhold",
-      "description": "Denne regelen sjekker om det finnes en mekanisme for å flytte fokus til ikke-gjentatt innhold på nettsiden.",
+      "name": "Siden har en mekanisme for å flytte fokus til ikke-gjentatt innhold",
+      "description": "Denne regelen sjekker om det finnes en mekanisme for å flytte fokus til ikke-gjentatt innhold på siden.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Siden har ikke gjentatt innhold.",
@@ -664,7 +664,7 @@
     },
     "QW-ACT-R75": {
       "name": "Hopp over blokker med gjenntatt innhold",
-      "description": "Denne regelen sjekker at hver nettside har en mekanisme for å hoppe over blokker med gjentatt innhold.",
+      "description": "Denne regelen sjekker at hver side har en mekanisme for å hoppe over blokker med gjentatte innhold.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Testobjektet fikk samsvar basert på testregelen ",
@@ -673,18 +673,18 @@
       }
     },
     "QW-ACT-R76": {
-      "name": "Tekst har forbedret kontrast",
-      "description": "Denne regelen sjekker om den høyeste målte kontrasten for hvert teksttegn mot bakgrunn møter kravene for forbedret kontrast.",
+      "name": "Kontrast mellom tekst og bakgrunn (forbedret)",
+      "description": "Denne regelen sjekker at element med tekst oppfyller kravet til forbedret kontrast.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Elementet har kontrastforhold høyere enn minimum.",
-        "P2": "Elementet inneholder ikke menneskelig språklig tekst.",
-        "P3": "Elementet har gradient med kontrastforhold høyre enn minimum.",
-        "W1": "Elementet inneholder tekstskygge som krever manuell verifisering.",
-        "W2": "Elementet bruker et bilde som bakgrunn.",
-        "W3": "Elementet har en gradient som ikke kan verifiseres.",
-        "F1": "Elementet har kontrastforhold høyre enn minimum.",
-        "F2": "Elementet har en gradient med kontrastforhold lavere enn minimum."
+        "P1": "Element med målt kontrast over minstekravet(forbedret).",
+        "P2": "Element har ikke tekst på et menneskelig språk.",
+        "P3": "Element har en gradient med kontrast over minstekravet(forbedret).",
+        "W1": "Element har tekst-skygge som må verifiseres manuelt.",
+        "W2": "Element har bilde som bakgrunn.",
+        "W3": "Element har en gradient som ikke kan verifiseres automatisk.",
+        "F1": "Element har målt kontrast under minstekravet(forbedret).",
+        "F2": "Element har en gradient med målt kontrast under minstekravet(forbedret)."
       }
     }
   },
