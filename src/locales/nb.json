@@ -5,15 +5,15 @@
       "description": "Denne regelen sjekker at en HTML-side har en tittel.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "`title`-elementet eksisterer og er ikke tomt ('').",
-        "F1": "`title`-elementet eksisterer ikke.",
-        "F2": "`title`-elementet er tomt ('').",
-        "F3": "`title`-elementet er ikke i samme kontekst."
+        "P1": "`title`-element eksisterer og er ikke tomt ('').",
+        "F1": "`title`-element eksisterer ikke.",
+        "F2": "`title`-element er tomt ('').",
+        "F3": "`title`-element er ikke i samme kontekst."
       }
     },
     "QW-ACT-R2": {
       "name": "HTML har en lang-attributt",
-      "description": "Denne regelen sjekker at html-elementet ikke har et tomt lang- eller xml:lang-attributt.",
+      "description": "Denne regelen sjekker at html-element ikke har et tomt lang- eller xml:lang-attributt.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "`lang`-attributtet finnes og har en verdi.",
@@ -31,7 +31,7 @@
     },
     "QW-ACT-R4": {
       "name": "Meta-refresh ingen forsinkelse",
-      "description": "Denne regelen sjekker at meta-elementet ikke brukes til forsinket omdirigering eller oppdatering.",
+      "description": "Denne regelen sjekker at meta-element ikke brukes til forsinket omdirigering eller oppdatering.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Testobjektet oppdateres/omdirigeres umiddelbart.",
@@ -116,7 +116,7 @@
     },
     "QW-ACT-R14": {
       "name": "Bruk av meta viewport hindrer ikke zoom",
-      "description": "Denne regelen sjekker at bruk av meta-elementet beholder brukeragentens evne til å zoome.",
+      "description": "Denne regelen sjekker at bruk av meta-element beholder brukeragentens evne til å zoome.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "`meta` element med `name='viewport'` attributt definerer ikke verdiene `maximum-scale` og `user-scalable`.",
@@ -167,8 +167,8 @@
       "description": "Denne regelen sjekker at alle iframe-element har et tilgjengelig navn.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "iframe-elementet har et tilgjengelig navn.",
-        "F1": "iframe-elementet mangler et tilgjengelig navn eller det er tomt ('')."
+        "P1": "iframe-element har et tilgjengelig navn.",
+        "F1": "iframe-element mangler et tilgjengelig navn eller det er tomt ('')."
       }
     },
     "QW-ACT-R20": {
@@ -241,7 +241,7 @@
       "description": "Denne regelen sjekker at alle aria-* attributt som er brukt er definert i ARIA 1.1.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Alle aria-* attributt brukt i dette elementet er definert i ARIA 1.1.",
+        "P1": "Alle aria-* attributt brukt i element er definert i ARIA 1.1.",
         "F1": "En eller flere aria-* attributt er ikke definert i ARIA 1.1."
       }
     },
@@ -370,7 +370,7 @@
       "description": "Denne regelen sjekker at bruk av CSS-overflow på tekst-elementer ikke fører til tap av innhold når siden blir zoomet inn med 200% på en 1280 x 1024 piksel stor viewport.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "W1": "Sjekk at tekst-elementet og underliggende element ikke mister innhold som følger av overflow."
+        "W1": "Sjekk at tekst-element og underliggende element ikke mister innhold som følger av overflow."
       }
     },
     "QW-ACT-R41": {
@@ -423,7 +423,7 @@
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Lyd/video som spilles av automatisk har en avspillingstid på 3 sekunder eller mindre.",
-        "W1": "Kan ikke samle inn data fra elementet med lyd eller video.",
+        "W1": "Kan ikke samle inn data fra element med lyd eller video.",
         "W2": "Sjekk om lyd/video som spilles av automatisk har en synlig kontrollmekanisme."
       }
     },
@@ -433,7 +433,7 @@
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Lyd/video som spilles av automatisk har en synlig kontrollmekanisme.",
-        "W1": "Kan ikke samle inn data fra elementet med lyd eller video.",
+        "W1": "Kan ikke samle inn data fra element med lyd eller video.",
         "W2": "Sjekk om lyd/video som spilles av automatisk har en synlig kontrollmekanisme."
       }
     },
@@ -442,7 +442,7 @@
       "description": "Denne regelen sjekker at forhåndsinnspilt video uten lyd er et mediealternativ for tekst på siden.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "W1": "Kan ikke samle inn data om video-elementet.",
+        "W1": "Kan ikke samle inn data om video-element.",
         "W2": "Sjekk at innholdet i videoen gjengir informasjonen i teksten."
       }
     },
@@ -535,11 +535,11 @@
       }
     },
     "QW-ACT-R62": {
-      "name": "Elementet som kan nås med tastatur har visuell fokusmarkering",
+      "name": "Element som kan nås med tastatur har visuell fokusmarkering",
       "description": "Denne regelen sjekker at alle element som kan nåes med tastaturet har visuell fokusmarkering.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "W1": "Sjekk at elementet har visuell fokusmarkering"
+        "W1": "Sjekk at element har visuell fokusmarkering"
       }
     },
     "QW-ACT-R63": {
@@ -548,7 +548,7 @@
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Siden har ikke gjentatt innhold.",
-        "W1": "Sjekk at det ikke finnes gjentatt innhold som etterfølges av ikke-gjentatt innhold. Dersom ja sjekk om det eksisterer et element der følgende betingelser er oppfylt: - elementet har en semantisk rolle som arver fra landemerke; og - det første synlige innholdet (in tree order in the flat tree) som er en inkluderende etterkommer av elementet er ikke-gjentatt innhold etter gjentatt innhold; og - elementet er inkludert i accessibility tree."
+        "W1": "Sjekk at det ikke finnes gjentatt innhold som etterfølges av ikke-gjentatt innhold. Dersom ja sjekk om det eksisterer et element der følgende betingelser er oppfylt: - element har en semantisk rolle som arver fra landemerke; og - det første synlige innholdet (in tree order in the flat tree) som er en inkluderende etterkommer av element er ikke-gjentatt innhold etter gjentatt innhold; og - element er inkludert i accessibility tree."
       }
     },
     "QW-ACT-R64": {
@@ -557,7 +557,7 @@
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Siden har ikke gjentatt innhold.",
-        "W1": "Sjekk at det ikke finnes gjentatt innhold som etterfølges av ikke-gjentatt innhold. Dersom ja sjekk om det eksisterer et element der følgende betingelser er oppfylt: - elementet er ikke-gjentatt innhold etter gjentatt innhold. - elementet har en semantisk rolle som overskrift. - elementet er visuelt synlig - elementet er inkludert i accessibility tree."
+        "W1": "Sjekk at det ikke finnes gjentatt innhold som etterfølges av ikke-gjentatt innhold. Dersom ja sjekk om det eksisterer et element der følgende betingelser er oppfylt: - element er ikke-gjentatt innhold etter gjentatt innhold. - element har en semantisk rolle som overskrift. - element er visuelt synlig - element er inkludert i accessibility tree."
       }
     },
     "QW-ACT-R65": {
@@ -565,8 +565,8 @@
       "description": "Denne regelen sjekker at element med en rolle som gjør at alle underordna element er ment for presentasjon ikke inneholder element som kan få fokus.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "P1": "Elementet har ingen underordna element som kan få fokus.",
-        "F1": "Elementet har underordna element som kan få fokus."
+        "P1": "Element har ingen underordna element som kan få fokus.",
+        "F1": "Element har underordna element som kan få fokus."
       }
     },
     "QW-ACT-R66": {
@@ -622,7 +622,7 @@
     },
     "QW-ACT-R71": {
       "name": "`meta`-element har ingen oppdateringsforsinkelse (ingen unntak)",
-      "description": "Denne regelen sjekker om meta-elementet blir brukt for forsinket omdirigering eller oppdatering av en nettside.",
+      "description": "Denne regelen sjekker om meta-element blir brukt for forsinket omdirigering eller oppdatering av en nettside.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Nettsiden oppdaterer/omdirigerer umiddelbart.",
@@ -631,16 +631,16 @@
       }
     },
     "QW-ACT-R72": {
-      "name": "Første fokuserbare elementet på nettsiden er en lenke til ikke-gjentatt innhold.",
-      "description": "Denne regelen sjekker om det første fokuserbare elementet på nettsiden er en lenke til ikke-gjentatt innhold.",
+      "name": "Første fokuserbare element på nettsiden er en lenke til ikke-gjentatt innhold.",
+      "description": "Denne regelen sjekker om første fokuserbare element på nettsiden er en lenke til ikke-gjentatt innhold.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
-        "W1": "Sjekk at det første fokuserbare elementet har et tilgjengelig navn som formidler at det hopper over innhold.",
-        "W2": "Sjekk at det første fokuserbare elementet lenker til sidens hovedinnholdet og at det tilgjengelige navnet formidler dette.",
-        "F1": "Det første fokuserbare elementet kan ikke aktiveres med tastaturet.",
-        "F2": "Det første fokuserbare elementet er ikke i accessibility tree.",
-        "F3": "Det første fokuserbare elementet har ikke rolle som lenke.",
-        "F4": "Det første fokuserbare elementet lenker ikke til hovedinnholdet.",
+        "W1": "Sjekk at første fokuserbare element har et tilgjengelig navn som formidler at det hopper over innhold.",
+        "W2": "Sjekk at første fokuserbare element lenker til sidens hovedinnholdet og at det tilgjengelige navnet formidler dette.",
+        "F1": "Første fokuserbare element kan ikke aktiveres med tastaturet.",
+        "F2": "Første fokuserbare element er ikke i accessibility tree.",
+        "F3": "Første fokuserbare element har ikke rolle som lenke.",
+        "F4": "Første fokuserbare element lenker ikke til hovedinnholdet.",
         "F5": "Siden har ingen element som kan få fokus."
       }
     },
