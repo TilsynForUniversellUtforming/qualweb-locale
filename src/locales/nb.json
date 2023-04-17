@@ -664,7 +664,7 @@
     },
     "QW-ACT-R75": {
       "name": "Hopp over blokker med gjenntatt innhold",
-      "description": "Denne regelen sjekker at hver side har en mekanisme for å hoppe over gjentatte blokker med innhold.",
+      "description": "Denne regelen sjekker at hver side har en mekanisme for å hoppe over blokker med gjentatte innhold.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Testobjektet fikk samsvar basert på testregelen ",
@@ -673,8 +673,8 @@
       }
     },
     "QW-ACT-R76": {
-      "name": "Teksten har forbedret kontrast",
-      "description": "Denne regelen sjekker om den høyest mulige kontrasten for hvert teksttegn mot sin bakgrunn møter kravene for forbedret kontrast.",
+      "name": "Tekst har forbedret kontrast",
+      "description": "Denne regelen sjekker om den høyeste målte kontrasten for hvert teksttegn mot bakgrunn møter kravene for forbedret kontrast.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Elementet har kontrastforhold høyere enn minimum.",
