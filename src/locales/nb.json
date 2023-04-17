@@ -333,7 +333,7 @@
       }
     },
     "QW-ACT-R37": {
-      "name": "Det er tilstrekkelig kontrast mellom tekst og bakgrunn (minimum)",
+      "name": "Kontrast mellom tekst og bakgrunn (minimum)",
       "description": "Denne regelen sjekker at element med tekst oppfyller minstekravet til kontrast mellom tekst og bakgrunn.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
