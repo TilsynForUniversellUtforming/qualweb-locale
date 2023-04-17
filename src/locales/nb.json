@@ -673,8 +673,8 @@
       }
     },
     "QW-ACT-R76": {
-      "name": "Tekst har forbedret kontrast",
-      "description": "Denne regelen sjekker om den høyeste målte kontrasten for hvert teksttegn mot bakgrunn møter kravene for forbedret kontrast.",
+      "name": "Kontrast mellom tekst og bakgrunn (forbedret)",
+      "description": "Denne regelen sjekker at element med tekst oppfyller kravet til forbedret kontrast.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Elementet har kontrastforhold høyere enn minimum.",
