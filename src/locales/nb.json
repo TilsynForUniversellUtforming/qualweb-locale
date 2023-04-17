@@ -646,7 +646,7 @@
     },
     "QW-ACT-R73": {
       "name": "Blokker med gjentatt innhold kan foldes sammen",
-      "description": "Denne regelen sjekker om blokker med gjentatte innhold kan foldes sammen.",
+      "description": "Denne regelen sjekker at blokker med gjentatte innhold kan foldes sammen.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Siden har ikke gjentatt innhold.",
