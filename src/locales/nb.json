@@ -535,8 +535,8 @@
       }
     },
     "QW-ACT-R62": {
-      "name": "Elementet som kan nås med tastatur har visuell fokusmarkering",
-      "description": "Denne regelen sjekker at alle element som kan nåes med tastaturet har visuell fokusmarkering.",
+      "name": "Elementet som kan nås med tastatur har synlig fokusmarkering",
+      "description": "Denne regelen sjekker at alle element som kan nåes med tastaturet har synlig fokusmarkering.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "W1": "Sjekk at elementet har visuell fokusmarkering"
@@ -544,7 +544,7 @@
     },
     "QW-ACT-R63": {
       "name": "Nettside har et landemerke med ikke-gjentatt innhold",
-      "description": "Denne regelen sjekker at hver side inneholder et element med semantisk rolle som landmerke og som starter med ikke-gjentatt innhold.",
+      "description": "Denne regelen sjekker at hver nettside inneholder et element med semantisk rolle som landmerke, som starter med ikke-gjentatt innhold.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Siden har ikke gjentatt innhold.",
@@ -553,7 +553,7 @@
     },
     "QW-ACT-R64": {
       "name": "Nettside har overskrift for ikke-gjentatt innhold",
-      "description": "Denne regelen sjekker at ikke-gjentatt innhold på nettsider inneholder en overskrift.",
+      "description": "Denne regelen sjekker at ikke-gjentatt innhold på nettsider har en overskrift.",
       "results": {
         "I1": "Ingen testobjekt funnet.",
         "P1": "Siden har ikke gjentatt innhold.",
