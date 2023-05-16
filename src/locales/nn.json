@@ -277,165 +277,165 @@
         }
       },
       "QW-ACT-R31": {
-        "name": "Video uten lyd har et tilgjengelig alternativ",
-        "description": "Denne regelen sjekker at video-element uten lyd har et tilgjengelig alternativ.",
+        "name": "Video utan lyd har eit tilgjengeleg alternativ",
+        "description": "Denne regelen sjekkar at video-element utan lyd har eit tilgjengeleg alternativ.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "Testobjektet fikk samsvar basert på testregelen ",
-          "W1": "Testobjektet kunne ikke verifiseres basert på testregelen ",
-          "F1": "Testobjektet feilet basert på testregelen "
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "Testobjektet fekk samsvar basert på testregelen ",
+          "W1": "Testobjektet kunne ikkje bli verifisert basert på testregelen ",
+          "F1": "Testobjektet feila basert på testregelen "
         }
       },
       "QW-ACT-R32": {
-        "name": "Video med lyd er synstolket",
-        "description": "Denne regelen sjekker at video-element med lyd er synstolket.",
+        "name": "Video med lyd er synstolka",
+        "description": "Denne regelen sjekkar at video-element med lyd er synstolka.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "Testobjektet fikk samsvar basert på testregelen ",
-          "W1": "Testobjektet kunne ikke verifiseres basert på testregelen ",
-          "F1": "Testobjektet feilet basert på testregelen "
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "Testobjektet fekk samsvar basert på testregelen ",
+          "W1": "Testobjektet kunne ikkje bli verifisert basert på testregelen ",
+          "F1": "Testobjektet feila basert på testregelen "
         }
       },
       "QW-ACT-R33": {
         "name": "ARIA påkrevd kontekst-rolle",
-        "description": "Denne regelen sjekker at element med en eksplisitt semantisk rolle finnes inni sin påkrevde kontekst.",
+        "description": "Denne regelen sjekkar at element med en eksplisitt semantisk rolle finst i sin påkrevde kontekst.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "Element med en eksplisitt semantisk rolle har overordnet element der påkrevd `role` finnes.",
-          "F1": "Element med en eksplisitt semantisk rolle har overordnet element der påkrevd `role` mangler."
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "Element med en eksplisitt semantisk rolle har overordna element der påkrevd `role` finst.",
+          "F1": "Element med en eksplisitt semantisk rolle har overordna element der påkrevd `role` manglar."
         }
       },
       "QW-ACT-R34": {
-        "name": "ARIA tilstander og egenskaper har gyldig verdi",
-        "description": "Denne regelen sjekker at alle ARIA tilstander og egenskaper har en gyldig verdi.",
+        "name": "ARIA tilstandar og eigenskapar har gyldig verdi",
+        "description": "Denne regelen sjekkar at alle ARIA tilstandar og eigenskapar har ein gyldig verdi.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
+          "I1": "Testobjekt ikkje funne.",
           "P1": "Element med `{attr}`-attributtet har en gyldig verdi.",
           "F1": "Element med `{attr}`-attributtet har en ugyldig verdi."
         }
       },
       "QW-ACT-R35": {
-        "name": "Overskrifter har et tilgjengelig navn",
-        "description": "Denne regelen sjekker at alle HTML-element med semantisk rolle overskrift har et tilgjengelig navn.",
+        "name": "Overskrifter har eit tilgjengeleg namn",
+        "description": "Denne regelen sjekkar at alle HTML-element med semantisk rolle overskrift har eit tilgjengeleg namn.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "HTML-element med semantisk rolle overskrift har et tilgjengelig navn.",
-          "F1": "HTML-element med semantisk rolle overskrift mangler et tilgjengelig navn eller det er tomt ('')."
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "HTML-element med semantisk rolle overskrift har eit tilgjengeleg namn.",
+          "F1": "HTML-element med semantisk rolle overskrift manglar eit tilgjengeleg namn eller det er tomt ('')."
         }
       },
       "QW-ACT-R36": {
-        "name": "Overskrifts-attributt i tabeller har gyldig referanse",
-        "description": "Denne regelen sjekker at overskrift-attributt på en celle i en tabell refererer til andre celler i samme tabell-element og at disse har en semantisk rolle som kolonne eller radoverskrift.",
+        "name": "Overskrifts-attributt i tabellar har gyldig referanse",
+        "description": "Denne regelen sjekkar at overskrift-attributt på ei celle i ein tabell refererer til andre celler i same tabell-element, og at desse har ei semantisk rolle som kolonne eller radoverskrift.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "Alle overskrifts-attributt refererer til en celle i samme tabell med semantisk rolle som kolonne- eller radoverskrift.",
-          "F1": "Overskrifts-attributtet `{attr}` refererer til en id som ikke finnes i samme tabell.",
-          "F2": "Overskrifts-attributtet `{attr}` refererer til et element i samme tabell som mangler semantisk rolle som kolonne- eller radoverskrift."
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "Alle overskrifts-attributt refererer til ei celle i same tabell med semantisk rolle som kolonne- eller radoverskrift.",
+          "F1": "Overskrifts-attributtet `{attr}` refererer til ein id som ikkje finst i same tabell.",
+          "F2": "Overskrifts-attributtet `{attr}` refererer til eit element i same tabell som manglar semantisk rolle som kolonne- eller radoverskrift."
         }
       },
       "QW-ACT-R37": {
         "name": "Kontrast mellom tekst og bakgrunn (minimum)",
-        "description": "Denne regelen sjekker at element med tekst oppfyller minstekravet til kontrast mellom tekst og bakgrunn.",
+        "description": "Denne regelen sjekkar at element med tekst oppfyller minstekravet til kontrast mellom tekst og bakgrunn.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
+          "I1": "Testobjekt ikkje funne.",
           "P1": "Element med målt kontrast over minstekravet.",
-          "P2": "Element har ikke tekst på et menneskelig språk.",
-          "P3": "Element har en gradient med kontrast over minstekravet.",
-          "W1": "Element har tekst-skygge som må verifiseres manuelt.",
+          "P2": "Element har ikkje tekst på eit menneskeleg språk.",
+          "P3": "Element har ein gradient med kontrast over minstekravet.",
+          "W1": "Element har tekst-skygge som må bli verifisert manuelt.",
           "W2": "Element har bilde som bakgrunn.",
-          "W3": "Element har en gradient som ikke kan verifiseres automatisk.",
+          "W3": "Element har ein gradient som ikkje kan bli verifisert automatisk.",
           "F1": "Element har målt kontrast under minstekravet.",
-          "F2": "Element har en gradient med målt kontrast under minstekravet."
+          "F2": "Element har ein gradient med målt kontrast under minstekravet."
         }
       },
       "QW-ACT-R38": {
-        "name": "ARIA påkrevde element finnes",
-        "description": "Denne regelen sjekker at element med en eksplisitt semantisk rolle eier minst ett av sine påkrevde element.",
+        "name": "ARIA påkrevde element finst",
+        "description": "Denne regelen sjekkar at element med en eksplisitt semantisk rolle eig minst eitt av sine påkrevde element.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "Element med en eksplisitt semantisk rolle eier bare element med gyldig rolle.",
-          "F1": "Element med en eksplisitt semantisk rolle eier element som ikke har gyldig rolle."
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "Element med en eksplisitt semantisk rolle eig berre element med gyldig rolle.",
+          "F1": "Element med en eksplisitt semantisk rolle eig element som ikkje har gyldig rolle."
         }
       },
       "QW-ACT-R39": {
-        "name": "Alle overskriftceller i en tabell er tilknyttet dataceller",
-        "description": "Denne regelen sjekker at alle overskriftsceller i en tabell er koblet til minst en datacelle i samme table-element",
+        "name": "Alle overskriftceller i ein tabell er knytt til dataceller",
+        "description": "Denne regelen sjekkar at alle overskriftsceller i ein tabell er kobla til minst ei datacelle i same table-element",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "Overskriftcelle er koblet til minst en datacelle.",
-          "F1": "Overskriftcelle mangler kobling til en datacelle."
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "Overskriftcelle er kobla til minst ei datacelle.",
+          "F1": "Overskriftcelle manglar kobling til ei datacelle."
         }
       },
       "QW-ACT-R40": {
-        "name": "CSS-overflow fører ikke til tap av innhold ved zooming.",
-        "description": "Denne regelen sjekker at bruk av CSS-overflow på tekst-elementer ikke fører til tap av innhold når siden blir zoomet inn med 200% på en 1280 x 1024 piksel stor viewport.",
+        "name": "CSS-overflow fører ikkje til tap av innhald ved zooming.",
+        "description": "Denne regelen sjekkar at bruk av CSS-overflow på tekst-element ikkje fører til tap av innhald når sida blir zooma inn med 200% på ein 1280 x 1024 piksel stor viewport.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "W1": "Sjekk at tekst-element og underliggende element ikke mister innhold som følger av overflow."
+          "I1": "Testobjekt ikkje funne.",
+          "W1": "Sjekk at tekst-element og underliggande element ikkje mistar innhald som følge av overflow."
         }
       },
       "QW-ACT-R41": {
-        "name": "Feilmeldinger i skjema er beskrivende",
-        "description": "Denne regelen sjekker at det blir gitt beskrivende feilmeldinger i skjemaelement når en bruker oppgir en verdi som er ugyldig eller i feil format.",
+        "name": "Feilmeldingar i skjema er beskrivande",
+        "description": "Denne regelen sjekkar at det blir gitt beskrivande feilmeldingar i skjemaelement når ein brukar skriv ein verdi som er ugyldig eller i feil format.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "W1": "Sjekk at feilmeldingen identifiser årsaken til feilen eller beskriver hvordan feilen kan rettes."
+          "I1": "Testobjekt ikkje funne.",
+          "W1": "Sjekk at feilmeldinga identifiser årsaka til feilen eller beskriv korleis feilen kan bli retta."
         }
       },
       "QW-ACT-R42": {
-        "name": "object-element har et tilgjengelig navn",
-        "description": "Denne regelen sjekker at alle `object`-element har et tilgjengelig navn.",
+        "name": "object-element har eit tilgjengeleg namn",
+        "description": "Denne regelen sjekkar at alle `object`-element har eit tilgjengeleg namn.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "object-element har et tilgjengelig navn.",
-          "F1": "object-element mangler et tilgjengelig navn eller det er tomt ('')."
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "object-element har eit tilgjengeleg namn.",
+          "F1": "object-element manglar eit tilgjengeleg namn eller det er tomt ('')."
         }
       },
       "QW-ACT-R43": {
-        "name": "Element som skroller kan betjenes med tastatur",
-        "description": "Denne regelen sjekker at element som skroller kan betjenes med tastatur.",
+        "name": "Element som skrollar kan betenast med tastatur",
+        "description": "Denne regelen sjekkar at element som skrollar kan betenast med tastatur.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "Element som skroller kan få fokus med tastatur.",
-          "F1": "Element som skroller inkludert underordna element får ikke fokus med tastatur."
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "Element som skrollar kan få fokus med tastatur.",
+          "F1": "Element som skrollar inkludert underordna element får ikkje fokus med tastatur."
         }
       },
       "QW-ACT-R44": {
-        "name": "Lenker med samme tilgjengelige navn går til samme eller tilsvarende lenkemål.",
-        "description": "Denne regelen sjekker at lenker med samme tilgjengelige navn går til samme eller tilsvarende lenkemål.",
+        "name": "Lenker med same tilgjengelege namn går til same eller tilsvarande lenkemål.",
+        "description": "Denne regelen sjekkar at lenker med same tilgjengelege namn går til same eller tilsvarande lenkemål.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "Lenker med samme tilgjengelige navn har samme lenkemål.",
-          "W1": "Lenker med samme tilgjengelige navn har forskjellig lenkemål. Verifiser at lenkemålet er tilsvarende."
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "Lenker med same tilgjengelege namn har same lenkemål.",
+          "W1": "Lenker med same tilgjengelege namn har forskjellig lenkemål. Verifiser at lenkemålet er tilsvarande."
         }
       },
       "QW-ACT-R48": {
-        "name": "Element markert som dekorative er ikke er del av accessibility tree",
-        "description": "Denne regelen sjekker at element som er markert som dekorative ikke er del av accessibility tree.",
+        "name": "Element markert som dekorative er ikkje del av accessibility tree",
+        "description": "Denne regelen sjekkar at element markert som dekorative, ikkje er del av accessibility tree.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "Element markert som dekorativt er ikke del av accessibility tree.",
-          "F1": "Element markert som dekorativt er en del av accessibility tree."
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "Element markert som dekorativt, er ikkje del av accessibility tree.",
+          "F1": "Element markert som dekorativt, er del av accessibility tree."
         }
       },
       "QW-ACT-R49": {
-        "name": "Lyd eller video som spilles av automatisk har ikke lyd som varer mer enn 3 sekunder",
-        "description": "Denne regelen sjekker at lyd eller video som spilles av automatisk ikke har lyd som varer mer enn 3 sekunder.",
+        "name": "Lyd eller video som blir spelt av automatisk, har ikkje lyd som varer meir enn 3 sekund",
+        "description": "Denne regelen sjekkar at lyd eller video som blir spelt av automatisk, ikkje har lyd som varer meir enn 3 sekund.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "Lyd/video som spilles av automatisk har en avspillingstid på 3 sekunder eller mindre.",
-          "W1": "Kan ikke samle inn data fra element med lyd eller video.",
-          "W2": "Sjekk om lyd/video som spilles av automatisk har en synlig kontrollmekanisme."
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "Lyd/video som blir spelt av automatisk har ei avspelingstid på 3 sekund eller mindre.",
+          "W1": "Kan ikkje samle inn data frå element med lyd eller video."
+          "W2": "Sjekk om lyd/video som blir spelt av automatisk har ein synleg kontrollmekanisme."
         }
       },
       "QW-ACT-R50": {
-        "name": "Lyd eller video som spilles av automatisk har en kontrollmekanisme.",
-        "description": "Denne regelen sjekker at lyd eller video som spilles av automatisk har en synlig kontrollmekanisme.",
+        "name": "Lyd eller video som blir spelt av automatisk, har ein kontrollmekanisme.",
+        "description": "Denne regelen sjekkar at lyd eller video som blir spelt av automatisk, har ein synleg kontrollmekanisme.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "Lyd/video som spilles av automatisk har en synlig kontrollmekanisme.",
-          "W1": "Kan ikke samle inn data fra element med lyd eller video.",
-          "W2": "Sjekk om lyd/video som spilles av automatisk har en synlig kontrollmekanisme."
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "Lyd/video som blir spelt av automatisk, har ein synleg kontrollmekanisme.",
+          "W1": "Kan ikkje samle inn data frå element med lyd eller video.",
+          "W2": "Sjekk om lyd/video som blir spelt av automatisk, har ein synleg kontrollmekanisme."
         }
       },
       "QW-ACT-R51": {
