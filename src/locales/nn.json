@@ -2,137 +2,137 @@
 {
     "act-rules": {
       "QW-ACT-R1": {
-        "name": "HTML-side har en tittel",
-        "description": "Denne regelen sjekker at en HTML-side har en tittel.",
+        "name": "HTML-side har ein tittel",
+        "description": "Denne regelen sjekkar at ei HTML-side har ein tittel.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "`title`-element eksisterer og er ikke tomt ('').",
-          "F1": "`title`-element eksisterer ikke.",
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "`title`-element eksisterer og er ikkje tomt ('').",
+          "F1": "`title`-element eksisterer ikkje.",
           "F2": "`title`-element er tomt ('').",
-          "F3": "`title`-element er ikke i samme kontekst."
+          "F3": "`title`-element er ikkje i same kontekst."
         }
       },
       "QW-ACT-R2": {
-        "name": "HTML har en lang-attributt",
-        "description": "Denne regelen sjekker at html-element ikke har et tomt lang- eller xml:lang-attributt.",
+        "name": "HTML har eit lang-attributt",
+        "description": "Denne regelen sjekkar at html-element ikkje har eit tomt lang- eller xml:lang-attributt.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "`lang`-attributtet finnes og har en verdi.",
-          "F1": "`lang`-attributtet finnes ikke eller er tomt ('')."
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "`lang`-attributtet finst og har ein verdi.",
+          "F1": "`lang`-attributtet finst ikkje eller er tomt ('')."
         }
       },
       "QW-ACT-R3": {
         "name": "HTML lang og xml:lang er like",
-        "description": "Regelen sjekker at det for html-element er brukt samme verdi for primærspråk i ikke-tomme lang- og xml:lang-attributt, der begge disse attributtene er brukt.",
+        "description": "Regelen sjekkar at det for html-element er brukt same verdi for primærspråk i ikkje-tomme lang- og xml:lang-attributt, der begge desse attributta er brukt.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "Attributtene `lang` og `xml:lang` har samme verdi.",
-          "F1": "Attributtene `lang` og `xml:lang` har ikke samme verdi."
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "Attributta `lang` og `xml:lang` har same verdi.",
+          "F1": "Attributta `lang` og `xml:lang` har ikkje same verdi."
         }
       },
       "QW-ACT-R4": {
-        "name": "Meta-refresh ingen forsinkelse",
-        "description": "Denne regelen sjekker at meta-element ikke brukes til forsinket omdirigering eller oppdatering.",
+        "name": "Meta-refresh er ikkje forsinka",
+        "description": "Denne regelen sjekkar at meta-element ikkje blir brukt til forsinka omdirigering eller oppdatering.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "Testobjektet oppdateres/omdirigeres umiddelbart.",
-          "P2": "Testobjektet oppdateres/omdirigeres etter mer enn 20 timer.",
-          "F1": "Testobjektet oppdateres etter {seconds} sekunder.",
-          "F2": "Testobjektet omdirigeres etter {seconds} sekunder."
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "Testobjektet blir oppdatert/omdirigert med ein gong.",
+          "P2": "Testobjektet blir oppdatert/omdirigert etter meir enn 20 timar.",
+          "F1": "Testobjektet blir oppdatert etter {seconds} sekund.",
+          "F2": "Testobjektet blir omdirigert etter {seconds} sekund."
         }
       },
       "QW-ACT-R5": {
-        "name": "HTML lang-attributtet har gyldig innhold",
-        "description": "Denne regelen sjekker at lang- eller xml:lang-attributtet har en gyldig språkundertag.",
+        "name": "HTML lang-attributtet har gyldig innhald",
+        "description": "Denne regelen sjekkar at lang- eller xml:lang-attributtet har ein gyldig språkundertag.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "`lang`-attributtet har en gyldig verdi.",
-          "F1": "`lang`-attributtet har ikke en gyldig verdi."
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "`lang`-attributtet har ein gyldig verdi.",
+          "F1": "`lang`-attributtet har ikkje ein gyldig verdi."
         }
       },
       "QW-ACT-R6": {
-        "name": "Knapper kodet som bilde har et tilgjengelig navn",
-        "description": "Denne testregelen sjekker at knapper kodet som bilde har et tilgjengelig navn.",
+        "name": "Knappar koda som bilde har eit tilgjengeleg namn",
+        "description": "Denne testregelen sjekkar at knappar koda som bilde har eit tilgjengeleg namn.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "Knapp kodet som bilde har et tilgjengelig navn.",
-          "F1": "Knapp kodet som bilde har ikke et tilgjengelig navn."
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "Knapp koda som bilde har eit tilgjengeleg namn.",
+          "F1": "Knapp koda som bilde har ikkje eit tilgjengeleg namn."
         }
       },
       "QW-ACT-R7": {
-        "name": "Visningsretning på nettsiden er ikke begrenset ved bruk av CSS-transformeringsegenskap",
-        "description": "Denne regelen sjekker at innhold på siden, ikke er begrenset til bare liggende eller stående visningsretning ved bruk av CSS-transformeringsegenskaper.",
+        "name": "Visningsretning på nettsida er ikkje avgrensa med bruk av CSS-transformeringseigenskap",
+        "description": "Denne regelen sjekkar at innhald på sida, ikkje er avgrensa til berre liggande eller ståande visningsretning med bruk av CSS-transformeringseigenskapar.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "En side der CSS-egenskaper ikke begrenser visningsretningen til verken stående eller liggende visningsretning.",
-          "F1": "En side der CSS-egenskaper begrenser visningsretningen til bare liggende visningsretning."
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "Ei side der CSS-eigenskapar ikkje avgrenser visningsretninga til anten ståande eller liggande visningsretning.",
+          "F1": "Ei side der CSS-eigenskapar avgrenser visningsretninga til berre liggande visningsretning."
         }
       },
       "QW-ACT-R9": {
-        "name": "Lenker med identisk tilgjengelig navn har samme formål",
-        "description": "Denne regelen sjekker at lenker med identisk tilgjengelig navn har samme eller tilsvarende lenkemål.",
+        "name": "Lenker med identisk tilgjengeleg namn har same formål",
+        "description": "Denne regelen sjekkar at lenker med identisk tilgjengeleg namn har same eller tilsvarande lenkemål.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "`Lenker` med samme tilgjengelige navn har samme lenkemål.",
-          "F1": "`Lenker` med samme tilgjengelige navn har ulikt lenkemål. Verifiser at lenkemålet er tilsvarende."
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "`Lenker` med same tilgjengeleg namn har same lenkemål.",
+          "F1": "`Lenker` med same tilgjengeleg namn har ulikt lenkemål. Verifiser at lenkemålet er tilsvarande."
         }
       },
       "QW-ACT-R10": {
-        "name": "`iframe`-element med identisk tilgjengelige navn har tilsvarende formål",
-        "description": "Denne regelen sjekker at `iframe`-element med identiske tilgjengelige navn har samme innhold.",
+        "name": "`iframe`-element med identisk tilgjengeleg namn har tilsvarande formål",
+        "description": "Denne regelen sjekkar at `iframe`-element med identisk tilgjengeleg namn har same innhald.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "`iframes` med samme tilgjengelige navn har likt innhold.",
-          "F1": "`iframes` med samme tilgjengelige navn har forskjellig innhold."
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "`iframes` med same tilgjengeleg namn har likt innhald.",
+          "F1": "`iframes` med same tilgjengeleg namn har forskjellig innhald."
         }
       },
       "QW-ACT-R11": {
-        "name": "Knapper har et tilgjengelig navn",
-        "description": "Denne regelen sjekker at alle knapper kodet som button har et tilgjengelig navn.",
+        "name": "Knappar har eit tilgjengeleg namn",
+        "description": "Denne regelen sjekkar at alle knappar koda som button har eit tilgjengeleg namn.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "Knapp har et tilgjengelig navn.",
-          "F1": "Knapp mangler et tilgjengelig navn eller det er tomt ('')."
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "Knapp har eit tilgjengeleg namn.",
+          "F1": "Knapp manglar eit tilgjengeleg namn eller det er tomt ('')."
         }
       },
       "QW-ACT-R12": {
-        "name": "Lenker har et tilgjengelig navn",
-        "description": "Denne regelen sjekker at alle lenker har et tilgjengelig navn.",
+        "name": "Lenker har eit tilgjengeleg namn",
+        "description": "Denne regelen sjekkar at alle lenker har eit tilgjengeleg namn.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "Lenke med tilgjengelig navn.",
-          "F1": "Lenke mangler et tilgjengelig navn eller det er tomt ('')."
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "Lenke med tilgjengeleg namn.",
+          "F1": "Lenke manglar eit tilgjengeleg namn eller det er tomt ('')."
         }
       },
       "QW-ACT-R13": {
-        "name": "Element med `aria-hidden` inneholder ikke element som kan få fokus",
-        "description": "Denne regelen sjekker at element kodet med aria-aria-hidden-attributtet ikke inneholder element som kan få fokus.",
+        "name": "Element med `aria-hidden` inneheld ikkje element som kan få fokus",
+        "description": "Denne regelen sjekkar at element koda med aria-aria-hidden-attributtet ikkje inneheld element som kan få fokus.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "Testobjektet inneholder ikke element som kan få fokus.",
-          "P2": "Testobjektet kan ikke få fokus.",
-          "F1": "Testobjektet inneholder element som kan få fokus.",
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "Testobjektet inneheld ikkje element som kan få fokus.",
+          "P2": "Testobjektet kan ikkje få fokus.",
+          "F1": "Testobjektet inneheld element som kan få fokus.",
           "F2": "Testobjektet kan få fokus."
         }
       },
       "QW-ACT-R14": {
-        "name": "Bruk av meta viewport hindrer ikke zoom",
-        "description": "Denne regelen sjekker at bruk av meta-element beholder brukeragentens evne til å zoome.",
+        "name": "Bruk av meta viewport hindrar ikkje zoom",
+        "description": "Denne regelen sjekkar at bruk av meta-element beheld brukeragenten si evne til å zoome.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "`meta` element med `name='viewport'` attributt definerer ikke verdiene `maximum-scale` og `user-scalable`.",
-          "P2": "`meta` element med `name='viewport'` attributt begrenser ikke brukeragentens evne til å zoome",
-          "F1": "`meta` element med `name='viewport'` attributt begrenser brukeragentens evne til å zoome ved bruk av user-scalable=no eller maximum-scale < 2."
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "`meta` element med `name='viewport'` attributt definerer ikkje verdiane `maximum-scale` og `user-scalable`.",
+          "P2": "`meta` element med `name='viewport'` attributt avgrenser ikkje brukeragenten si evne til å zoome",
+          "F1": "`meta` element med `name='viewport'` attributt avgrenser brukeragenten si evne til å zoome med bruk av user-scalable=no eller maximum-scale < 2."
         }
       },
       "QW-ACT-R15": {
-        "name": "Lyd eller video har ikke lyd som spilles av automatisk",
-        "description": "Denne regelen sjekker at automatisk avspilling av lyd ikke varer i mer enn 3 sekunder, eller at det finnes en kontrollmekanisme for å stoppe eller dempe lyd.",
+        "name": "Lyd eller video har ikkje lyd som blir spelt av automatisk",
+        "description": "Denne regelen sjekkar at automatisk avspeling av lyd ikkje varer i meir enn 3 sekund, eller at det finst en kontrollmekanisme for å stoppa eller dempa lyd.",
         "results": {
-          "I1": "Ingen testobjekt funnet.",
-          "P1": "Testobjektet fikk samsvar basert på testregelen ",
-          "W1": "Testobjektet kunne ikke verifiseres basert på testregelen ",
-          "F1": "Testobjektet feilet basert på testregelen "
+          "I1": "Testobjekt ikkje funne.",
+          "P1": "Testobjektet fekk samsvar basert på testregelen ",
+          "W1": "Testobjektet kunne ikkje bli verifisert basert på testregelen ",
+          "F1": "Testobjektet feila basert på testregelen "
         }
       },
       "QW-ACT-R16": {
