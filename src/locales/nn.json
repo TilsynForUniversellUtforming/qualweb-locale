@@ -424,7 +424,7 @@
         "results": {
           "I1": "Testobjekt ikkje funne.",
           "P1": "Lyd/video som blir spelt av automatisk har ei avspelingstid på 3 sekund eller mindre.",
-          "W1": "Kan ikkje samle inn data frå element med lyd eller video."
+          "W1": "Kan ikkje samle inn data frå element med lyd eller video.",
           "W2": "Sjekk om lyd/video som blir spelt av automatisk har ein synleg kontrollmekanisme."
         }
       },
@@ -557,7 +557,7 @@
         "description": "Denne regelen sjekkar at ikkje-gjenteke innhald på nettsider inneheld ei overskrift.",
         "results": {
           "I1": "Testobjekt ikkje funne.",
-          "P1": "Sida har ikkje gjenteke innhald."
+          "P1": "Sida har ikkje gjenteke innhald.",
           "W1": "Sjekk at det ikkje finst gjenteke innhald som blir følgt av ikkje-gjenteke innhald. Dersom ja sjekk om det eksisterer eit element der følgende føresetnader er oppfylt: - element har ei semantisk rolle som overskrift. - element er visuelt synleg - element er inkludert i accessibility tree."
         }
       },
@@ -677,7 +677,7 @@
         "name": "Kontrast mellom tekst og bakgrunn (forbedra)",
         "description": "Denne regelen sjekkar at element med tekst oppfyller kravet til forbedra kontrast.",
         "results": {
-          "I1": "Testobjekt ikkje funnea.",
+          "I1": "Testobjekt ikkje funne.",
           "P1": "Element med målt kontrast over minstekravet (forbedra).",
           "P2": "Element har ikkje tekst på et menneskeleg språk.",
           "P3": "Element har ein gradient med kontrast over minstekravet (forbedra).",
