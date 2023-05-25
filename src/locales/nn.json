@@ -298,7 +298,7 @@
       },
       "QW-ACT-R33": {
         "name": "ARIA påkravd kontekst-rolle",
-        "description": "Denne regelen sjekkar at element med en eksplisitt semantisk rolle finst i sin påkrevde kontekst.",
+        "description": "Denne regelen sjekkar at element med ei eksplisitt semantisk rolle finst i sin påkrevde kontekst.",
         "results": {
           "I1": "Testobjekt ikkje funne.",
           "P1": "Element med en eksplisitt semantisk rolle har overordna element der påkravd `role` finst.",
@@ -350,7 +350,7 @@
       },
       "QW-ACT-R38": {
         "name": "ARIA påkrevde element finst",
-        "description": "Denne regelen sjekkar at element med en eksplisitt semantisk rolle eig minst eitt av sine påkrevde element.",
+        "description": "Denne regelen sjekkar at element med en eksplisitt semantisk rolle eig minst eitt av sine påkravde element.",
         "results": {
           "I1": "Testobjekt ikkje funne.",
           "P1": "Element med en eksplisitt semantisk rolle eig berre element med gyldig rolle.",
@@ -367,7 +367,7 @@
         }
       },
       "QW-ACT-R40": {
-        "name": "CSS-overflow fører ikkje til tap av innhald ved zooming.",
+        "name": "CSS-overflow fører ikkje til tap av innhald ved zooming",
         "description": "Denne regelen sjekkar at bruk av CSS-overflow på tekst-element ikkje fører til tap av innhald når sida blir zooma inn med 200% på ein 1280 x 1024 piksel stor viewport.",
         "results": {
           "I1": "Testobjekt ikkje funne.",
@@ -401,7 +401,7 @@
         }
       },
       "QW-ACT-R44": {
-        "name": "Lenker med same tilgjengelege namn går til same eller tilsvarande lenkemål.",
+        "name": "Lenker med same tilgjengelege namn går til same eller tilsvarande lenkemål",
         "description": "Denne regelen sjekkar at lenker med same tilgjengelege namn går til same eller tilsvarande lenkemål.",
         "results": {
           "I1": "Testobjekt ikkje funne.",
@@ -429,7 +429,7 @@
         }
       },
       "QW-ACT-R50": {
-        "name": "Lyd eller video som blir spelt av automatisk, har ein kontrollmekanisme.",
+        "name": "Lyd eller video som blir spelt av automatisk, har ein kontrollmekanisme",
         "description": "Denne regelen sjekkar at lyd eller video som blir spelt av automatisk, har ein synleg kontrollmekanisme.",
         "results": {
           "I1": "Testobjekt ikkje funne.",
@@ -484,7 +484,7 @@
         }
       },
       "QW-ACT-R56": {
-        "name": "Video er eit mediealternativ for tekst.",
+        "name": "Video er eit mediealternativ for tekst",
         "description": "Denne regelen sjekkar at førehandsinnspelt video er eit mediealternativ for tekst på sida.",
         "results": {
           "I1": "Testobjekt ikkje funne.",
@@ -514,7 +514,7 @@
         "description": "Denne regelen sjekkar at lydklipp er eit mediealternativ til tekst på sida.",
         "results": {
           "I1": "Testobjekt ikkje funne.",
-          "W1": "Sjekk at innhaldet i lydklippet gjengir innhaldet i teksten"
+          "W1": "Sjekk at innhaldet i lydklippet gjengir innhaldet i teksten."
         }
       },
       "QW-ACT-R60": {
@@ -540,7 +540,7 @@
         "description": "Denne regelen sjekkar at alle element som kan nåast med tastaturet har visuell fokusmarkering.",
         "results": {
           "I1": "Testobjekt ikkje funne.",
-          "W1": "Sjekk at element har visuell fokusmarkering"
+          "W1": "Sjekk at element har visuell fokusmarkering."
         }
       },
       "QW-ACT-R63": {
@@ -549,7 +549,7 @@
         "results": {
           "I1": "Testobjekt ikkje funne.",
           "P1": "Sida har ikkje gjenteke innhald.",
-          "W1": "Sjekk at det ikkje finst gjenteke innhold som blir følgt av ikkje-gjenteke innhald. Dersom ja sjekk om det eksisterer eit element der følgande føresetnader er oppfylt: - element har ei semantisk rolle som arver frå landemerket; og - det første synlege innhaldet (in tree order in the flat tree) som er ein inkludert etterkomar av element er ikkje-gjenteke innhald etter gjenteke innhald; og - element er inkludert i accessibility tree."
+          "W1": "Sjekk at det ikkje finst gjenteke innhald som blir følgt av ikkje-gjenteke innhald. Dersom ja sjekk om det eksisterer eit element der følgande føresetnader er oppfylt: - element har ei semantisk rolle som arver frå landemerket; og - det første synlege innhaldet (in tree order in the flat tree) som er ein inkludert etterkomar av element er ikkje-gjenteke innhald etter gjenteke innhald; og - element er inkludert i accessibility tree."
         }
       },
       "QW-ACT-R64": {
@@ -585,7 +585,7 @@
         "results": {
           "I1": "Testobjekt ikkje funne.",
           "P1": "Element der letter-spacing i style-attributtet ikkje er sett til !important.",
-          "P2": "Element der letter-spacing i style-attributtet er sett til 0.12 ganger skriftstørrelsen  eller meir.",
+          "P2": "Element der letter-spacing i style-attributtet er sett til 0.12 ganger skriftstørrelsen eller meir.",
           "P3": "Element der letter-spacing er sett i stilarket.",
           "F1": "Element der letter-spacing i style-attributtet er sett slik at det hindrar at bokstavavstand kan bli høgare enn 0.12 gonger skriftstørrelsen."
         }
@@ -669,7 +669,7 @@
         "results": {
           "I1": "Testobjekt ikkje funne.",
           "P1": "Testobjektet fekk samsvar basert på testregelen ",
-          "W1": "Testobjektet kunne ikkje bli verifiset basert på testregelen ",
+          "W1": "Testobjektet kunne ikkje bli verifisert basert på testregelen ",
           "F1": "Testobjektet feila basert på testregelen "
         }
       },
