@@ -232,9 +232,9 @@
         "description": "Denne regelen sjekkar at video-element med lyd anten er teksta eller har eit tekstalternativ til lyden.",
         "results": {
           "I1": "Testobjekt ikkje funne.",
-          "P1": "Testobjektet fekk resultatet samsvar basert på resultatet fra testregelen ",
-          "W1": "Testobjektet kunne ikkje bli verifisert basert på resultatet fra testregelen ",
-          "F1": "Testobjektet fekk resultatet feila basert på resultatet fra testregelen "
+          "P1": "Testobjektet fekk resultatet samsvar basert på resultatet frå testregelen ",
+          "W1": "Testobjektet kunne ikkje bli verifisert basert på resultatet frå testregelen ",
+          "F1": "Testobjektet fekk resultatet feila basert på resultatet frå testregelen "
         }
       },
       "QW-ACT-R27": {
