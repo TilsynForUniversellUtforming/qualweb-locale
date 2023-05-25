@@ -64,8 +64,8 @@
         "description": "Denne regelen sjekkar at innhald på sida, ikkje er avgrensa til berre liggande eller ståande visningsretning med bruk av CSS-transformeringseigenskapar.",
         "results": {
           "I1": "Testobjekt ikkje funne.",
-          "P1": "Ei side der CSS-eigenskapar ikkje avgrenser visningsretninga til anten ståande eller liggande visningsretning.",
-          "F1": "Ei side der CSS-eigenskapar avgrenser visningsretninga til berre liggande visningsretning."
+          "P1": "Ei side der CSS-eigenskapar ikkje avgrensar visningsretninga til anten ståande eller liggande visningsretning.",
+          "F1": "Ei side der CSS-eigenskapar avgrensar visningsretninga til berre liggande visningsretning."
         }
       },
       "QW-ACT-R9": {
@@ -200,7 +200,7 @@
         }
       },
       "QW-ACT-R23": {
-        "name": "Visuelt innhald i video med lyd er synstolka eller har eit tekstalternativ.",
+        "name": "Visuelt innhald i video med lyd er synstolka eller har eit tekstalternativ",
         "description": "Denne regelen sjekkar at alle video-element med lyd har eit alternativ for det visuelle innhaldet i form av lyd eller tekst.",
         "results": {
           "I1": "Testobjekt ikkje funne.",
