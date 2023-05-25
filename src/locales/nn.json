@@ -297,12 +297,12 @@
         }
       },
       "QW-ACT-R33": {
-        "name": "ARIA påkrevd kontekst-rolle",
+        "name": "ARIA påkravd kontekst-rolle",
         "description": "Denne regelen sjekkar at element med en eksplisitt semantisk rolle finst i sin påkrevde kontekst.",
         "results": {
           "I1": "Testobjekt ikkje funne.",
-          "P1": "Element med en eksplisitt semantisk rolle har overordna element der påkrevd `role` finst.",
-          "F1": "Element med en eksplisitt semantisk rolle har overordna element der påkrevd `role` manglar."
+          "P1": "Element med en eksplisitt semantisk rolle har overordna element der påkravd `role` finst.",
+          "F1": "Element med en eksplisitt semantisk rolle har overordna element der påkravd `role` manglar."
         }
       },
       "QW-ACT-R34": {
