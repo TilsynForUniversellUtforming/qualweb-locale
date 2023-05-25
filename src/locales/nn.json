@@ -145,8 +145,8 @@
         }
       },
       "QW-ACT-R17": {
-        "name": "Bilder har eit tilgjengeleg namn",
-        "description": "Denne regelen sjekkar at alle bilder som ikkje er markert som dekorative, har eit tilgjengeleg namn.",
+        "name": "Bilde har eit tilgjengeleg namn",
+        "description": "Denne regelen sjekkar at alle bilde som ikkje er markert som dekorative, har eit tilgjengeleg namn.",
         "results": {
           "I1": "Testobjekt ikkje funne.",
           "P1": "Bilde er markert som dekorativt.",
